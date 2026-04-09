@@ -29,7 +29,7 @@ Barrier        = max(statutory_bar, licensing_liability, consumer_preference)
 
 ### Why this formula?
 
-The previous version used `1 − (1−robot)×(1−AI)` (OR logic), which inflated scores for occupations threatened by only one dimension. A politician has near-zero robotic relevance — only 3% of their job is physical — so robot risk shouldn't lift their score. The weighted blend fixes this: each automation vector is weighted by what fraction of the job it actually applies to.
+We don't want inflated scores for occupations threatened by only one dimension. A politician has near-zero robotic relevance — only 3% of their job is physical — so robot risk shouldn't lift their score. The weighted blend fixes this: each automation vector is weighted by what fraction of the job it actually applies to.
 
 ---
 
