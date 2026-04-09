@@ -1,0 +1,20 @@
+name: Regenerate scores
+
+on:
+  push:
+    branches: [main]
+    paths: ['score_engine.py', 'occupations.py']
+
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install pandas numpy
+      - run: python run.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: scores
+          path: bls_automation_scores.csv

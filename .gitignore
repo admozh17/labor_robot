@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.egg-info/
+dist/
+build/
+.env
+*.json
+group_averages.png
+ai_vs_robot.png
+healthcare_displacement.csv
+very_high_risk.csv
