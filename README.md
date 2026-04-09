@@ -2,8 +2,10 @@
 
 A transparent, reproducible pipeline that scores every US occupation in the [BLS Standard Occupational Classification (SOC) 2018](https://www.bls.gov/soc/) system on its risk of displacement by robots and AI.
 
-> **Interactive version**: [Open in Google Colab](https://colab.research.google.com/) ← upload `notebook.ipynb`  
-> **Pre-scored results**: see [`bls_automation_scores.csv`](bls_automation_scores.csv)
+> **Interactive Database**: [interactive_database.html](interactive_database.html) - Searchable, filterable occupation database
+> **Robotics Report**: [robotics_report.html](robotics_report.html) - Analysis of robotic automation trends
+> **Jupyter Notebook**: [notebook.ipynb](notebook.ipynb) - Interactive visualizations and analysis
+> **Pre-scored Results**: [bls_automation_scores.csv](bls_automation_scores.csv) - Full dataset (830 occupations)
 
 ---
 
@@ -203,12 +205,55 @@ The model was validated against 15 published anchors before release:
 
 ## How to run
 
+### Local execution
+
 ```bash
-pip install pandas numpy
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the pipeline
 python run.py
 ```
 
-Output: `bls_automation_scores.csv`
+**Outputs:**
+- `bls_automation_scores.csv` - Full dataset (830 occupations)
+- `scores.json` - JSON summary with aggregate statistics
+
+### Interactive visualizations
+
+```bash
+# Install Jupyter and visualization libraries
+pip install jupyter matplotlib seaborn
+
+# Launch Jupyter Notebook
+jupyter notebook
+```
+
+Then open `notebook.ipynb` to explore:
+- Summary statistics and distributions
+- Top/bottom displaced occupations
+- Group-level averages
+- Visualizations (bar charts, scatter plots)
+- Search and filter tools
+- Detailed breakdowns for individual occupations
+
+**Generated visualizations:**
+- `group_averages.png` - Bar chart of risk by occupation group
+- `ai_vs_robot.png` - Scatter plot of AI vs Robot technical capability
+
+### GitHub Actions
+
+This repository includes a GitHub Actions workflow that automatically regenerates scores when `score_engine.py` or `occupations.py` are modified. View the workflow at [`.github/workflows/run_pipeline.yml`](.github/workflows/run_pipeline.yml).
+
+The workflow:
+1. Runs on every push to `main` (when scoring files change)
+2. Installs dependencies (pandas, numpy)
+3. Executes `python run.py`
+4. Uploads `bls_automation_scores.csv` as an artifact
 
 ### How to use real data (to go fully empirical)
 
@@ -237,6 +282,24 @@ https://github.com/EIG-Research/AI-unemployment/blob/main/data/gptsRgpts_occ_lvl
 
 ---
 
+## Repository structure
+
+```
+├── run.py                          # Main pipeline script
+├── score_engine.py                 # Core scoring algorithms
+├── occupations.py                  # 830 BLS SOC occupation definitions
+├── requirements.txt                # Python dependencies
+├── notebook.ipynb                  # Interactive Jupyter notebook
+├── interactive_database.html       # Searchable occupation database
+├── robotics_report.html           # Robotics automation analysis
+├── bls_automation_scores.csv      # Pre-scored results (generated)
+├── scores.json                    # JSON summary (generated)
+└── .github/workflows/
+    └── run_pipeline.yml           # GitHub Actions CI/CD workflow
+```
+
+---
+
 ## Limitations
 
 1. **Within-group variation** is driven by title keywords, not full O*NET task-level scoring. Occupations in the same group without distinguishing keywords get the same base score.
@@ -258,7 +321,7 @@ https://github.com/EIG-Research/AI-unemployment/blob/main/data/gptsRgpts_occ_lvl
   note   = {Four-parameter model combining IFR robot density, Eloundou et al. β-scores,
             O*NET physical activity ratios, and BLS/Pew institutional barriers.
             Built on methodology from Anthropic Economic Index (2026).},
-  url    = {https://github.com/YOUR_USERNAME/automation-displacement-scores}
+  url    = {https://github.com/admozh17/labor_robot}
 }
 ```
 
