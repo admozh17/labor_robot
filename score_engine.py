@@ -1,6 +1,8 @@
 """
 Automation Displacement Score Engine
 =====================================
+Version: 1.0.0
+
 Implements the four-parameter displacement model:
   Displacement = (RobotTech × PhysShare + AItech × CogShare) × (1 − Barrier)
 
