@@ -3,7 +3,6 @@ Main pipeline: score all 867 BLS SOC occupations, validate, export.
 """
 
 import sys, os, json, math
-sys.path.insert(0, '/home/claude/pipeline')
 
 from score_engine import score_occupation
 from occupations import ALL_OCCUPATIONS
@@ -95,8 +94,7 @@ def run_pipeline():
         print(f"  {grp:40s} {avg:.1f}%")
 
     # ─── Export ───────────────────────────────────────────────────────────────
-    out_path = '/mnt/user-data/outputs/bls_automation_scores.csv'
-    os.makedirs('/mnt/user-data/outputs', exist_ok=True)
+    out_path = 'bls_automation_scores.csv'
     df.to_csv(out_path, index=False)
     print(f"\n✓ Exported {len(df)} rows → {out_path}")
 
@@ -114,7 +112,7 @@ def run_pipeline():
         'by_threat': df['primary_threat'].value_counts().to_dict(),
         'records': df.to_dict(orient='records'),
     }
-    with open('/home/claude/pipeline/scores.json', 'w') as f:
+    with open('scores.json', 'w') as f:
         json.dump(summary, f)
     print(f"✓ JSON summary saved")
     return df, summary
