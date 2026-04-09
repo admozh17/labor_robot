@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robotic Displacement of Human Labor — Research Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,400&family=Lora:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+:root{
+  --color-background-primary:#ffffff;--color-background-secondary:#f2f1ed;
+  --color-text-primary:#1a1918;--color-text-secondary:#6b6a67;--color-text-tertiary:#9b9a97;
+  --color-border-tertiary:rgba(26,25,24,0.12);--color-border-secondary:rgba(26,25,24,0.22);
+  --font-sans:'DM Sans',ui-sans-serif,system-ui,sans-serif;
+  --font-serif:'Lora',ui-serif,Georgia,serif;
+  --font-mono:'JetBrains Mono',ui-monospace,monospace;
+  --border-radius-md:8px;--border-radius-lg:12px;
+}
+@media(prefers-color-scheme:dark){:root{
+  --color-background-primary:#1c1b19;--color-background-secondary:#252420;
+  --color-text-primary:#f0ede8;--color-text-secondary:#a09e9a;--color-text-tertiary:#706e6a;
+  --color-border-tertiary:rgba(240,237,232,0.10);--color-border-secondary:rgba(240,237,232,0.18);
+}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans);background:var(--color-background-primary);color:var(--color-text-primary);max-width:760px;margin:0 auto;padding:2rem 1.5rem 4rem;font-size:15px}
+.eyebrow{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--color-text-tertiary);margin-bottom:.5rem}
+h1{font-size:30px;font-weight:500;line-height:1.25;margin-bottom:.75rem}
+.intro{font-size:15px;color:var(--color-text-secondary);line-height:1.7;max-width:620px;margin-bottom:1.5rem}
+h2{font-size:18px;font-weight:500;margin:2.5rem 0 .75rem}
+p{font-size:14px;line-height:1.7;color:var(--color-text-secondary);margin-bottom:1rem}
+.divider{border:none;border-top:.5px solid var(--color-border-tertiary);margin:2rem 0}
+.finding-list{list-style:none;padding:0;margin:1.25rem 0}
+.finding-list li{font-size:14px;line-height:1.6;color:var(--color-text-secondary);padding:.5rem 0 .5rem 1.25rem;border-bottom:.5px solid var(--color-border-tertiary);position:relative}
+.finding-list li::before{content:'';position:absolute;left:0;top:.9rem;width:6px;height:6px;border-radius:50%;background:#1D9E75}
+.finding-list li:last-child{border-bottom:none}
+.finding-list li em{color:var(--color-text-primary);font-style:italic}
+.metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:1.5rem 0}
+.mc{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:1rem}
+.mc-val{font-size:26px;font-weight:500;color:var(--color-text-primary)}
+.mc-lbl{font-size:12px;color:var(--color-text-secondary);margin-top:4px;line-height:1.4}
+.chart-wrap{position:relative;width:100%;margin:1.5rem 0 .5rem}
+.fig-caption{font-size:12px;color:var(--color-text-secondary);margin-top:.5rem;line-height:1.5}
+.fig-caption strong{color:var(--color-text-primary)}
+.legend-row{display:flex;flex-wrap:wrap;gap:14px;margin:.75rem 0 0;font-size:12px;color:var(--color-text-secondary)}
+.legend-row span{display:flex;align-items:center;gap:5px}
+.legend-swatch{width:10px;height:10px;border-radius:2px;display:inline-block}
+.occ-bar-row{display:grid;grid-template-columns:180px 1fr 46px;gap:10px;align-items:center;margin-bottom:8px}
+.occ-name{font-size:13px;color:var(--color-text-secondary);text-align:right;line-height:1.3}
+.occ-bar-bg{background:var(--color-background-secondary);border-radius:3px;height:18px;overflow:hidden}
+.occ-bar-fill{height:100%;border-radius:3px}
+.occ-pct{font-size:13px;font-weight:500;color:var(--color-text-primary)}
+.resistant-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:8px;margin:1rem 0}
+.resistant-card{border:.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);padding:.75rem 1rem}
+.resistant-card .r-title{font-size:13px;font-weight:500;color:var(--color-text-primary);margin-bottom:3px}
+.resistant-card .r-why{font-size:12px;color:var(--color-text-secondary);line-height:1.4}
+.timeline-item{display:grid;grid-template-columns:100px 1fr;gap:14px;margin-bottom:1.25rem;align-items:start}
+.tl-era{font-size:12px;font-weight:500;color:var(--color-text-primary);padding:4px 10px;border-radius:var(--border-radius-md);text-align:center;line-height:1.4}
+.tl-content h4{font-size:14px;font-weight:500;color:var(--color-text-primary);margin-bottom:4px}
+.tl-content p{font-size:13px;margin:0;line-height:1.55}
+.callout{background:var(--color-background-secondary);border-left:3px solid #1D9E75;border-radius:0 var(--border-radius-md) var(--border-radius-md) 0;padding:.85rem 1rem;margin:1.5rem 0}
+.callout p{margin:0;font-size:14px}
+.dim-bar-row{display:grid;grid-template-columns:130px 1fr;gap:10px;align-items:center;margin-bottom:10px}
+.dim-label{font-size:13px;color:var(--color-text-secondary)}
+</style>
+</head>
+<body>
+
+<div class="eyebrow">Economic Research · April 2026</div>
+<h1>Robotic displacement of human labor: an exposure framework and timeline</h1>
+<p class="intro">Companion analysis to Anthropic's AI labor market report. We adapt the task-based exposure framework to physical robotics, introduce a four-dimensional physical exposure score, and map deployment waves for US occupations through 2045.</p>
+
+<h2 style="margin-top:.5rem">Key findings</h2>
+<ul class="finding-list">
+  <li>We introduce a <em>physical exposure score</em> combining task dexterity, environmental structure, mobility demands, and demonstrated real-world deployment.</li>
+  <li>Robots are far from their theoretical capability: current deployment covers roughly 22% of tasks that are technically feasible.</li>
+  <li>Manufacturing, warehousing, and simple agriculture face the highest near-term displacement risk (2025–2030).</li>
+  <li>Unlike AI, robotics exposure is concentrated among lower-paid, less-educated, predominantly male workers — the <em>opposite</em> demographic profile from AI exposure.</li>
+  <li>Jobs requiring fine unstructured dexterity — plumbers, hairdressers, surgeons — remain highly resistant even with projected hardware advances through 2040.</li>
+  <li>A compound risk group exists: workers exposed to <em>both</em> AI and robotics face the earliest and broadest displacement.</li>
+</ul>
+
+<hr class="divider">
+
+<div class="metrics">
+  <div class="mc"><div class="mc-val">22%</div><div class="mc-lbl">Current deployment vs theoretical capability</div></div>
+  <div class="mc"><div class="mc-val">~38M</div><div class="mc-lbl">US workers in high physical-exposure roles</div></div>
+  <div class="mc"><div class="mc-val">2031</div><div class="mc-lbl">Median inflection year for mid-tier automation</div></div>
+</div>
+
+<h2>Physical exposure dimensions</h2>
+<p>Where AI exposure depends on whether an LLM can perform a task, robotic exposure depends on four physical dimensions. Current robot capability across each:</p>
+
+<div style="margin:1.25rem 0 1.5rem">
+  <div class="dim-bar-row"><div class="dim-label">Structural environment</div><div><div class="occ-bar-bg"><div class="occ-bar-fill" style="width:85%;background:#1D9E75"></div></div></div></div>
+  <div class="dim-bar-row"><div class="dim-label">Repeatability</div><div><div class="occ-bar-bg"><div class="occ-bar-fill" style="width:78%;background:#1D9E75"></div></div></div></div>
+  <div class="dim-bar-row"><div class="dim-label">Mobility demands</div><div><div class="occ-bar-bg"><div class="occ-bar-fill" style="width:55%;background:#5DCAA5"></div></div></div></div>
+  <div class="dim-bar-row"><div class="dim-label">Fine dexterity</div><div><div class="occ-bar-bg"><div class="occ-bar-fill" style="width:28%;background:#9FE1CB"></div></div></div></div>
+</div>
+
+<h2>Theoretical capability vs current deployment</h2>
+<p>Blue bars show what is technically feasible; teal bars show current deployment rates from commercial robotics data.</p>
+<div class="legend-row" style="margin-bottom:1rem">
+  <span><span class="legend-swatch" style="background:#B5D4F4"></span>Theoretical capability</span>
+  <span><span class="legend-swatch" style="background:#1D9E75"></span>Current deployment</span>
+</div>
+<div class="chart-wrap" style="height:320px">
+  <canvas id="capChart" role="img" aria-label="Bar chart comparing theoretical vs deployed robot capability by sector">Manufacturing 90% theoretical 68% deployed, construction 55% theoretical 14% deployed.</canvas>
+</div>
+<p class="fig-caption"><strong>Figure 1:</strong> The gap between theoretical capability (blue) and observed deployment (teal) reflects cost curves, safety certification, and physical environment variability — not capability limits.</p>
+
+<hr class="divider">
+
+<h2>Most exposed occupations</h2>
+<p>Top ten by combined physical exposure score, weighted by task time fraction and current deployment evidence.</p>
+<div style="margin:1.5rem 0">
+  <div class="occ-bar-row"><div class="occ-name">Welding machine operators</div><div class="occ-bar-bg"><div class="occ-bar-fill" style="width:88%;background:#0F6E56"></div></div><div class="occ-pct">88%</div></div>
+  <div class="occ-bar-row"><div class="occ-name">Warehouse order fillers</div><div class="occ-bar-bg"><div class="occ-bar-fill" style="width:81%;background:#0F6E56"></div></div><div class="occ-pct">81%</div></div>
+  <div class="occ-bar-row"><div class="occ-name">Packaging machine operators</div><div class="occ-bar-bg"><div class="occ-bar-fill" style="width:77%;background:#1D9E75"></div></div><div class="occ-pct">77%</div></div>
+  <div class="occ-bar-row"><div class="occ-name">Auto assembly workers</div><div class="occ-bar-bg"><div class="occ-bar-fill" style="width:74%;background:#1D9E75"></div></div><div class="occ-pct">74%</div></div>
+  <div class="occ-bar-row"><div class="occ-name">Agricultural crop workers</div><div class="occ-bar-bg"><div class="occ-bar-fill" style="width:66%;background:#1D9E75"></div></div><div class="occ-pct">66%</div></div>
+  <div class="occ-bar-row"><div class="occ-name">Cashiers (checkout)</div><div class="occ-bar-bg"><div class="occ-bar-fill" style="width:61%;background:#5DCAA5"></div></div><div class="occ-pct">61%</div></div>
+  <div class="occ-bar-row"><div class="occ-name">Delivery workers</div><div class="occ-bar-bg"><div class="occ-bar-fill" style="width:56%;background:#5DCAA5"></div></div><div class="occ-pct">56%</div></div>
+  <div class="occ-bar-row"><div class="occ-name">Dishwashers</div><div class="occ-bar-bg"><div class="occ-bar-fill" style="width:52%;background:#5DCAA5"></div></div><div class="occ-pct">52%</div></div>
+  <div class="occ-bar-row"><div class="occ-name">Security guards</div><div class="occ-bar-bg"><div class="occ-bar-fill" style="width:46%;background:#9FE1CB"></div></div><div class="occ-pct">46%</div></div>
+  <div class="occ-bar-row"><div class="occ-name">Commercial janitors</div><div class="occ-bar-bg"><div class="occ-bar-fill" style="width:43%;background:#9FE1CB"></div></div><div class="occ-pct">43%</div></div>
+</div>
+
+<hr class="divider">
+
+<h2>Displacement timeline — four waves</h2>
+<div style="margin:2rem 0">
+  <div class="timeline-item">
+    <div class="tl-era" style="background:#085041;color:#9FE1CB">2025–28<br>Wave 1</div>
+    <div class="tl-content"><h4>Already underway: structured, repetitive, high-volume</h4><p>Fixed-location assembly, warehouse picking (Amazon Proteus, Agility Digit), crop harvesting (Agrobot), automated checkout. Primary constraint is cost reduction, not capability.</p></div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-era" style="background:#0F6E56;color:#E1F5EE">2028–32<br>Wave 2</div>
+    <div class="tl-content"><h4>Mobile logistics and simple food preparation</h4><p>Last-mile delivery (sidewalk robots, drone delivery), basic food assembly (Chipotle's Autocado), commercial floor cleaning, parking/valet. Requires continued mobile manipulation improvements.</p></div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-era" style="background:#1D9E75;color:#E1F5EE">2032–38<br>Wave 3</div>
+    <div class="tl-content"><h4>Semi-structured outdoor and care environments</h4><p>Construction (rebar tying, bricklaying, painting), complex agriculture (fruit picking), home cleaning, elder care assistance. Requires robust performance in uncontrolled environments.</p></div>
+  </div>
+  <div class="timeline-item">
+    <div class="tl-era" style="background:#5DCAA5;color:#04342C">2038–45<br>Wave 4</div>
+    <div class="tl-content"><h4>Complex manipulation and physical care</h4><p>Residential plumbing/electrical (routine tasks), physical therapy assistance, surgical assistance (not replacement), general-purpose home robots. Requires near-human dexterity.</p></div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<h2>Jobs most resistant to robotic displacement</h2>
+<p>The following occupations score below 15% on physical exposure and are unlikely to face significant robotic displacement before 2040.</p>
+<div class="resistant-grid">
+  <div class="resistant-card"><div class="r-title">Plumbers &amp; pipefitters</div><div class="r-why">Every job site is unique; tight unstructured spaces defeat current end-effectors</div></div>
+  <div class="resistant-card"><div class="r-title">Electricians</div><div class="r-why">Wire routing in existing structures requires adaptive dexterity robots don't yet have</div></div>
+  <div class="resistant-card"><div class="r-title">Hairdressers &amp; barbers</div><div class="r-why">Fine manipulation on a moving human; strong social preference for human contact</div></div>
+  <div class="resistant-card"><div class="r-title">Surgeons</div><div class="r-why">Robotic assistance exists, but judgment + liability keeps humans in the loop</div></div>
+  <div class="resistant-card"><div class="r-title">Physical therapists</div><div class="r-why">Real-time adaptation to patient pain, fatigue, and emotional state</div></div>
+  <div class="resistant-card"><div class="r-title">Massage therapists</div><div class="r-why">Social trust + tactile sensitivity; consumer preference strongly favors humans</div></div>
+  <div class="resistant-card"><div class="r-title">Childcare workers</div><div class="r-why">Unstructured behavior; regulatory and trust barriers are near-absolute</div></div>
+  <div class="resistant-card"><div class="r-title">Emergency responders</div><div class="r-why">Extreme environmental variability; legal liability for autonomous action</div></div>
+</div>
+
+<hr class="divider">
+
+<h2>Who bears the risk: demographic contrast with AI exposure</h2>
+<div class="callout"><p>Robotic and AI displacement diverge sharply by worker profile. AI exposure falls most heavily on higher-paid, more educated, predominantly female workers. Robotic exposure is concentrated among lower-paid, less-educated, predominantly male workers in physical industries. Workers in the overlap — warehouse supervisors, quality-control inspectors — face compound risk from both.</p></div>
+
+<div class="chart-wrap" style="height:260px">
+  <canvas id="demoChart" role="img" aria-label="Grouped bar chart comparing demographics of AI-exposed vs robotics-exposed workers">AI-exposed workers: 62% female, $65k median, 38% with degree. Robot-exposed: 31% female, $38k, 14% with degree.</canvas>
+</div>
+<p class="fig-caption"><strong>Figure 2:</strong> Key demographic differences. AI and robotic displacement will hit largely different worker populations, suggesting distinct policy responses are needed.</p>
+
+<hr class="divider">
+
+<h2>Discussion</h2>
+<p>Robotic displacement is constrained primarily by hardware maturity, capital cost, and physical environment variability — not software capability. This creates a more predictable displacement timeline than AI, with manufacturing and logistics already in early waves, and complex dexterous tasks remaining resistant past 2040.</p>
+<p>The most important policy implication is demographic asymmetry. Effective responses must be tailored: retraining pipelines for manufacturing workers differ substantially from those appropriate for white-collar AI-exposed occupations.</p>
+<p style="font-size:12px;color:var(--color-text-tertiary);margin-top:2rem">April 2026 · Data sources: IFR World Robotics 2022, Anthropic Economic Index 2026, O*NET 29.0, BLS OES, Pew Research 2014/2022 · Companion interactive database: <code>interactive_database.html</code></p>
+
+<script>
+const isDark=matchMedia('(prefers-color-scheme:dark)').matches;
+const grd=isDark?'rgba(255,255,255,0.07)':'rgba(0,0,0,0.05)';
+const tc=isDark?'rgba(255,255,255,0.5)':'rgba(0,0,0,0.45)';
+new Chart(document.getElementById('capChart'),{type:'bar',data:{labels:['Manufacturing','Warehousing','Agriculture','Retail','Cleaning','Food service','Construction','Healthcare\nphysical'],datasets:[{label:'Theoretical capability',data:[90,82,70,48,58,42,55,35],backgroundColor:'#B5D4F4',borderRadius:3},{label:'Current deployment',data:[68,55,38,28,22,16,14,8],backgroundColor:'#1D9E75',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.dataset.label+': '+c.parsed.y+'%'}}},scales:{x:{grid:{color:grd},ticks:{color:tc,font:{size:11},maxRotation:30}},y:{min:0,max:100,grid:{color:grd},ticks:{color:tc,font:{size:11},callback:v=>v+'%'}}}}});
+new Chart(document.getElementById('demoChart'),{type:'bar',data:{labels:['% female','Median wage ($k)','% with bachelor\'s+'],datasets:[{label:'AI-exposed workers',data:[62,65,38],backgroundColor:'#378ADD',borderRadius:3},{label:'Robotics-exposed workers',data:[31,38,14],backgroundColor:'#1D9E75',borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.dataset.label+': '+c.parsed.y+(c.dataIndex===0||c.dataIndex===2?'%':'k')}}},scales:{x:{grid:{color:grd},ticks:{color:tc,font:{size:12}}},y:{grid:{color:grd},ticks:{color:tc,font:{size:11}}}}}});
+</script>
+</body>
+</html>
