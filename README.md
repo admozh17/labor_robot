@@ -2,10 +2,13 @@
 
 A transparent, reproducible pipeline that scores every US occupation in the [BLS Standard Occupational Classification (SOC) 2018](https://www.bls.gov/soc/) system on its risk of displacement by robots and AI.
 
-> **Interactive Database**: [interactive_database.html](interactive_database.html) - Searchable, filterable occupation database. 
-> **Robotics Report**: [robotics_report.html](robotics_report.html) - Analysis of robotic automation trends. 
-> **Jupyter Notebook**: [notebook.ipynb](notebook.ipynb) - Interactive visualizations and analysis. 
-> **Pre-scored Results**: [bls_automation_scores.csv](bls_automation_scores.csv) - Full dataset (830 occupations). 
+> **Interactive Database**: [interactive_database.html](interactive_database.html) - Searchable, filterable occupation database.
+>
+> **Robotics Report**: [robotics_report.html](robotics_report.html) - Analysis of robotic automation trends.
+>
+> **Jupyter Notebook**: [notebook.ipynb](notebook.ipynb) - Interactive visualizations and analysis.
+>
+> **Pre-scored Results**: [bls_automation_scores.csv](bls_automation_scores.csv) - Full dataset (830 occupations).
 
 ---
 
