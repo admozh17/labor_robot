@@ -297,6 +297,8 @@ https://github.com/EIG-Research/AI-unemployment/blob/main/data/gptsRgpts_occ_lvl
 ├── robotics_report.html           # Robotics automation analysis
 ├── bls_automation_scores.csv      # Pre-scored results (generated)
 ├── scores.json                    # JSON summary (generated)
+├── geo_exposure.py                # NEW: geographic aggregator (state/CBSA/county)
+├── employment_by_region.sample.csv# Example input for geo aggregation
 └── .github/workflows/
     └── run_pipeline.yml           # GitHub Actions CI/CD workflow
 ```
@@ -312,6 +314,107 @@ https://github.com/EIG-Research/AI-unemployment/blob/main/data/gptsRgpts_occ_lvl
 3. **RobotTech projection**: IFR data is from 2022. The forward-projection to 2026+ adds ±15 points of uncertainty, particularly for autonomous vehicles and general-purpose humanoid robots.
 
 4. **No temporal dimension**: Scores reflect current technical feasibility, not a timeline. See the companion analysis for deployment wave estimates.
+
+---
+
+## Geographic aggregation (NEW)
+
+You can aggregate the occupation-level scores into a region-level exposure index using your own employment-by-occupation matrix (e.g., by state, CBSA/MSA, or county).
+
+Why it’s needed: “Pure geography” has no exposure on its own — displacement is defined for occupations. To compare places, you weight occupations by how common they are in each place.
+
+### Input format
+
+Provide a CSV with at least these columns (see `employment_by_region.sample.csv`):
+
+```
+region_id, soc, employment[, region_name]
+```
+
+- `region_id`: your geography key (e.g., `CA`, `31080` for Los Angeles CBSA, FIPS code, etc.)
+- `soc`: SOC-2018 code like `15-1252`
+- `employment`: headcount (or FTE) in that SOC in the region
+- `region_name` (optional): human-readable name; if absent it defaults to `region_id`
+
+Data sources you can use to build this file:
+- BLS OEWS state/metro occupation employment tables
+- ACS/PUMS with SOC-coded occupation mapped to PUMAs, then to counties/MSAs via crosswalk
+- Employer HR/Payroll exports (internal analysis)
+
+### Run
+
+```bash
+python geo_exposure.py --employment employment_by_region.csv \
+                       --scores bls_automation_scores.csv \
+                       --out geo_scores.csv
+```
+
+### Output
+
+`geo_scores.csv` with one row per region:
+- `displacement_index` — employment-weighted mean of occupation displacement (post-barrier)
+- `raw_capability_index` — employment-weighted mean of pre-barrier capability
+- `ai_raw_index`, `robot_raw_index` — employment-weighted AI vs robotic raw contributions
+- `ai_share_of_raw`, `robot_share_of_raw` — composition shares of raw capability
+- `threat_share_ai/robotic/both` — employment-weighted shares of jobs whose primary driver is AI, robotic, or both
+
+Example (using the sample file):
+
+```bash
+python geo_exposure.py --employment employment_by_region.sample.csv
+```
+
+This writes `geo_scores.csv` and prints the top regions by `displacement_index`.
+
+### Notes
+
+- Indices are percentages (0–100). They are comparable across regions if your employment counts cover similar SOC scope.
+- If some SOCs in your employment file aren’t found in `bls_automation_scores.csv`, they’re reported and dropped.
+
+### State results (May 2024 OEWS)
+
+We aggregated the May 2024 OEWS State workbook into per‑state exposure (file: `geo_scores.states.csv`).
+
+- National employment‑weighted averages: displacement_index ≈ 37.6, raw_capability_index ≈ 46.7
+- Composition of raw capability: AI ≈ 66.8%, Robotic ≈ 33.2%
+
+Top 10 by displacement_index:
+
+```
+Washington (WA)   38.96
+Utah (UT)         38.79
+Wisconsin (WI)    38.69
+Michigan (MI)     38.51
+Tennessee (TN)    38.38
+Virginia (VA)     38.30
+New Hampshire (NH)38.27
+Georgia (GA)      38.22
+Minnesota (MN)    38.11
+Puerto Rico (PR)  38.08
+```
+
+Bottom 10 by displacement_index:
+
+```
+West Virginia (WV) 35.19
+Hawaii (HI)        35.34
+Wyoming (WY)       35.41
+North Dakota (ND)  35.42
+Louisiana (LA)     35.54
+Vermont (VT)       35.65
+Montana (MT)       35.72
+Nevada (NV)        35.72
+Alaska (AK)        35.79
+Maine (ME)         36.16
+```
+
+Repro steps:
+
+```
+python oews_state_to_employment.py --xlsx state_M2024_dl.xlsx --out employment_by_region.states.csv
+python geo_exposure.py --employment employment_by_region.states.csv --out geo_scores.states.csv
+```
+
 
 ---
 
