@@ -317,7 +317,7 @@ https://github.com/EIG-Research/AI-unemployment/blob/main/data/gptsRgpts_occ_lvl
 
 ---
 
-## Geographic aggregation (NEW)
+## Geographic Aggregation
 
 You can aggregate the occupation-level scores into a region-level exposure index using your own employment-by-occupation matrix (e.g., by state, CBSA/MSA, or county).
 
