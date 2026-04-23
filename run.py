@@ -118,5 +118,32 @@ def run_pipeline():
     return df, summary
 
 
+def run_geo(scores_path='bls_automation_scores.csv',
+            emp_path='employment_by_region.states.csv',
+            out_path='geo_scores.states.csv'):
+    """
+    Aggregate occupation scores to state level if the employment file exists.
+    Calls geo_exposure.main() so all logic stays in one place.
+    """
+    if not os.path.exists(emp_path):
+        print(f"\n── Geographic aggregation skipped ({emp_path} not found) ──")
+        return
+    print(f"\n── Geographic aggregation ({emp_path}) ──")
+    from geo_exposure import load_scores, load_employment, compute_region_indices
+    scores  = load_scores(scores_path)
+    emp     = load_employment(emp_path)
+    df_join = emp.merge(scores, on='soc', how='left', validate='many_to_one')
+    missing = df_join['title'].isna().sum()
+    if missing:
+        print(f"  Warning: {missing} rows dropped (SOC not in scores)")
+        df_join = df_join[~df_join['title'].isna()].copy()
+    geo = compute_region_indices(df_join)
+    geo.to_csv(out_path, index=False)
+    print(f"✓ Geo scores → {out_path}  ({geo.shape[0]} regions)")
+    top = geo.sort_values('displacement_index', ascending=False).head(5)
+    print(top[['region_id','region_name','displacement_index']].to_string(index=False))
+
+
 if __name__ == '__main__':
     df, summary = run_pipeline()
+    run_geo()
