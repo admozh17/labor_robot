@@ -1,0 +1,831 @@
+soc,title,group,group_name,phys_share,ai_tech,robot_tech,barrier,raw_capability,displacement,primary_threat,national_employment,outflow,inflow,net_flow,net_flow_pct
+11-1011,Chief Executives,11,Management,4,52,3,25,50.0,38,AI,168030.0,63851.0,58569.0,-5283.0,-3.1
+11-1021,General & Operations Managers,11,Management,4,52,3,25,50.0,38,AI,3551970.0,1349749.0,56558.0,-1293191.0,-36.4
+11-1031,Legislators,11,Management,4,52,3,95,50.0,3,AI,22950.0,688.0,143601.0,142913.0,622.7
+11-2011,Advertising & Promotions Managers,11,Management,4,52,3,25,50.0,38,AI,14430.0,5483.0,58660.0,53177.0,368.5
+11-2021,Marketing Managers,11,Management,4,52,3,25,50.0,38,AI,378410.0,143796.0,58444.0,-85352.0,-22.6
+11-2022,Sales Managers,11,Management,4,52,3,25,50.0,38,AI,592820.0,225272.0,58316.0,-166955.0,-28.2
+11-2031,Public Relations & Fundraising Managers,11,Management,4,52,3,25,50.0,38,AI,0.0,0.0,58669.0,58669.0,
+11-3012,Administrative Services Managers,11,Management,4,52,3,25,50.0,38,AI,253540.0,96345.0,58518.0,-37827.0,-14.9
+11-3013,Facilities Managers,11,Management,4,52,3,25,50.0,38,AI,140030.0,53211.0,58586.0,5374.0,3.8
+11-3021,Computer & Information Systems Managers,11,Management,4,52,3,25,50.0,38,AI,630290.0,239510.0,58294.0,-181216.0,-28.8
+11-3031,Financial Managers,11,Management,4,52,3,25,50.0,38,AI,811470.0,308359.0,58187.0,-250172.0,-30.8
+11-3051,Industrial Production Managers,11,Management,4,52,3,25,50.0,38,AI,231150.0,87837.0,58531.0,-29306.0,-12.7
+11-3061,Purchasing Managers,11,Management,4,52,3,25,50.0,38,AI,77270.0,29363.0,58623.0,29260.0,37.9
+11-3071,Transportation/Distribution Managers,11,Management,4,42,3,25,40.4,30,AI,211740.0,63522.0,70359.0,6837.0,3.2
+11-3111,Compensation & Benefits Managers,11,Management,4,52,3,25,50.0,38,AI,19000.0,7220.0,58657.0,51437.0,270.7
+11-3121,Human Resources Managers,11,Management,4,52,3,25,50.0,38,AI,186260.0,70779.0,58558.0,-12221.0,-6.6
+11-3131,Training & Development Managers,11,Management,4,52,3,25,50.0,38,AI,35550.0,13509.0,58648.0,45139.0,127.0
+11-3141,Compensation Managers,11,Management,4,52,3,25,50.0,38,AI,0.0,0.0,58669.0,58669.0,
+11-9011,Farm Managers,11,Management,4,52,3,25,50.0,38,AI,0.0,0.0,58669.0,58669.0,
+11-9021,Construction Managers,11,Management,4,52,3,25,50.0,38,AI,335540.0,127505.0,58469.0,-69036.0,-20.6
+11-9031,Education Administrators (Postsecondary),11,Management,4,52,3,25,50.0,38,AI,61040.0,23195.0,58632.0,35437.0,58.1
+11-9032,Education Administrators (K-12),11,Management,4,52,3,25,50.0,38,AI,312530.0,118761.0,58483.0,-60278.0,-19.3
+11-9033,Education Administrators (Preschool),11,Management,4,52,2,25,50.0,38,AI,166260.0,63179.0,58570.0,-4609.0,-2.8
+11-9041,Architectural & Engineering Managers,11,Management,4,52,3,25,50.0,38,AI,195550.0,74309.0,58553.0,-15756.0,-8.1
+11-9051,Food Service Managers,11,Management,4,52,3,25,50.0,38,AI,240300.0,91314.0,58526.0,-32788.0,-13.6
+11-9061,Funeral Home Managers,11,Management,4,52,3,55,50.0,23,AI,0.0,0.0,90491.0,90491.0,
+11-9071,Gaming Managers,11,Management,4,52,3,25,50.0,38,AI,3950.0,1501.0,58666.0,57165.0,1447.2
+11-9081,Lodging Managers,11,Management,4,52,3,25,50.0,38,AI,37490.0,14246.0,58646.0,44400.0,118.4
+11-9111,Medical & Health Services Managers,11,Management,4,52,3,25,50.0,38,AI,553690.0,210402.0,58340.0,-152062.0,-27.5
+11-9121,Natural Sciences Managers,11,Management,4,52,3,25,50.0,38,AI,97920.0,37210.0,58611.0,21401.0,21.9
+11-9141,Property/Community Association Managers,11,Management,4,52,3,25,50.0,38,AI,255380.0,97044.0,58517.0,-38527.0,-15.1
+11-9151,Social & Community Service Managers,11,Management,4,52,3,25,50.0,38,AI,190230.0,72287.0,58556.0,-13732.0,-7.2
+11-9161,Emergency Management Directors,11,Management,4,52,2,25,50.0,38,AI,12290.0,4670.0,58661.0,53991.0,439.3
+11-9171,Funeral Home Directors,11,Management,4,52,3,55,50.0,23,AI,12890.0,2965.0,90484.0,87519.0,679.0
+11-9179,Postmasters & Mail Superintendents,11,Management,4,52,3,25,50.0,38,AI,8320.0,3162.0,58664.0,55502.0,667.1
+11-9199,Managers NEC,11,Management,4,52,3,25,50.0,38,AI,585230.0,222387.0,58321.0,-164066.0,-28.0
+13-1011,Agents/Business Managers of Artists,13,Business & Financial,3,72,4,30,70.0,49,AI,13490.0,6610.0,39624.0,33014.0,244.7
+13-1021,Buyers & Purchasing Agents (Farm),13,Business & Financial,3,72,4,30,70.0,49,AI,0.0,0.0,39632.0,39632.0,
+13-1022,Wholesale/Retail Buyers (Non-Farm),13,Business & Financial,3,72,4,30,70.0,49,AI,0.0,0.0,39632.0,39632.0,
+13-1023,Purchasing Agents (Non-Farm),13,Business & Financial,3,72,4,30,70.0,49,AI,0.0,0.0,39632.0,39632.0,
+13-1031,Claims Adjusters & Investigators,13,Business & Financial,3,72,4,30,70.0,49,AI,301760.0,147862.0,39445.0,-108417.0,-35.9
+13-1032,Insurance Appraisers (Auto),13,Business & Financial,3,72,4,30,70.0,49,AI,5620.0,2754.0,39629.0,36875.0,656.1
+13-1041,Compliance Officers,13,Business & Financial,3,72,4,30,70.0,49,AI,395320.0,193707.0,39387.0,-154320.0,-39.0
+13-1051,Cost Estimators,13,Business & Financial,3,72,4,30,70.0,49,AI,214180.0,104948.0,39499.0,-65449.0,-30.6
+13-1071,Human Resources Specialists,13,Business & Financial,3,72,4,30,70.0,49,AI,900640.0,441314.0,39073.0,-402241.0,-44.7
+13-1074,Farm Labor Contractors,13,Business & Financial,3,72,4,55,70.0,31,AI,0.0,0.0,72545.0,72545.0,
+13-1075,Labor Relations Specialists,13,Business & Financial,3,72,4,30,70.0,49,AI,64280.0,31497.0,39592.0,8095.0,12.6
+13-1081,Logisticians,13,Business & Financial,3,72,4,30,70.0,49,AI,232120.0,113739.0,39488.0,-74251.0,-32.0
+13-1082,Project Management Specialists,13,Business & Financial,3,72,4,30,70.0,49,AI,974950.0,477726.0,39027.0,-438699.0,-45.0
+13-1111,Management Analysts,13,Business & Financial,3,72,4,30,70.0,49,AI,882670.0,432508.0,39084.0,-393424.0,-44.6
+13-1121,Meeting/Event/Convention Planners,13,Business & Financial,3,72,4,30,70.0,49,AI,130390.0,63891.0,39551.0,-24340.0,-18.7
+13-1131,Fundraisers,13,Business & Financial,3,72,4,30,70.0,49,AI,103390.0,50661.0,39568.0,-11093.0,-10.7
+13-1141,Compensation/Benefits/Job Analysis Specialists,13,Business & Financial,3,72,4,30,70.0,49,AI,100370.0,49181.0,39570.0,-9611.0,-9.6
+13-1151,Training & Development Specialists,13,Business & Financial,3,72,4,30,70.0,49,AI,426000.0,208740.0,39368.0,-169372.0,-39.8
+13-1161,Market Research Analysts,13,Business & Financial,3,80,4,30,77.7,54,AI,836450.0,451683.0,30773.0,-420910.0,-50.3
+13-1199,Business Operations Specialists NEC,13,Business & Financial,3,72,4,30,70.0,49,AI,1094330.0,536222.0,38953.0,-497269.0,-45.4
+13-2011,Accountants & Auditors,13,Business & Financial,3,84,4,30,81.6,57,AI,1426040.0,812843.0,25991.0,-786852.0,-55.2
+13-2020,Property Appraisers & Assessors,13,Business & Financial,3,72,4,30,70.0,49,AI,58100.0,28469.0,39596.0,11127.0,19.2
+13-2031,Budget Analysts,13,Business & Financial,3,72,4,30,70.0,49,AI,46150.0,22614.0,39604.0,16990.0,36.8
+13-2041,Credit Analysts,13,Business & Financial,3,72,4,30,70.0,49,AI,67150.0,32904.0,39591.0,6687.0,10.0
+13-2051,Financial & Investment Analysts,13,Business & Financial,3,82,4,30,79.7,56,AI,332940.0,186446.0,28171.0,-158275.0,-47.5
+13-2052,Personal Financial Advisors,13,Business & Financial,3,72,4,73,70.0,19,AI,265180.0,50384.0,99811.0,49427.0,18.6
+13-2053,Insurance Underwriters,13,Business & Financial,3,88,4,30,85.5,60,AI,106970.0,64182.0,22714.0,-41468.0,-38.8
+13-2054,Financial Risk Specialists,13,Business & Financial,3,72,4,30,70.0,49,AI,55650.0,27268.0,39598.0,12329.0,22.2
+13-2061,Financial Examiners,13,Business & Financial,3,72,4,30,70.0,49,AI,62230.0,30493.0,39594.0,9101.0,14.6
+13-2071,Credit Counselors,13,Business & Financial,3,62,2,30,60.2,42,AI,26580.0,11164.0,52229.0,41066.0,154.5
+13-2072,Loan Officers,13,Business & Financial,3,72,4,30,70.0,49,AI,289660.0,141933.0,39452.0,-102481.0,-35.4
+13-2081,Tax Examiners & Collectors,13,Business & Financial,3,72,4,30,70.0,49,AI,52650.0,25798.0,39600.0,13801.0,26.2
+13-2082,Tax Preparers,13,Business & Financial,3,86,4,30,83.5,58,AI,71790.0,41638.0,25319.0,-16319.0,-22.7
+13-2099,Financial Specialists NEC,13,Business & Financial,3,72,4,30,70.0,49,AI,123910.0,60716.0,39555.0,-21160.0,-17.1
+15-1211,Computer Systems Analysts,15,Computer & Math,2,78,3,5,76.5,73,AI,491900.0,359087.0,10651.0,-348436.0,-70.8
+15-1212,Information Security Analysts,15,Computer & Math,2,78,3,5,76.5,73,AI,173750.0,126838.0,10741.0,-116096.0,-66.8
+15-1221,Computer & Information Research Scientists,15,Computer & Math,1,78,3,5,77.2,73,AI,34330.0,25061.0,10702.0,-14359.0,-41.8
+15-1231,Computer Network Support Specialists,15,Computer & Math,2,78,3,5,76.5,73,AI,142610.0,104105.0,10750.0,-93355.0,-65.5
+15-1232,Computer User Support Specialists,15,Computer & Math,2,78,3,5,76.5,73,AI,687090.0,501576.0,10596.0,-490980.0,-71.5
+15-1241,Database Administrators,15,Computer & Math,2,78,3,5,76.5,73,AI,163950.0,119684.0,10744.0,-108939.0,-66.4
+15-1242,Database Architects,15,Computer & Math,2,78,3,5,76.5,73,AI,71930.0,52509.0,10770.0,-41739.0,-58.0
+15-1243,Database Architects (Cloud),15,Computer & Math,2,78,3,5,76.5,73,AI,62290.0,45472.0,10773.0,-34699.0,-55.7
+15-1244,Network & Computer Systems Administrators,15,Computer & Math,2,78,3,5,76.5,73,AI,310700.0,226811.0,10703.0,-216108.0,-69.6
+15-1245,Network Architects (Cloud),15,Computer & Math,2,78,3,5,76.5,73,AI,0.0,0.0,10791.0,10791.0,
+15-1251,Computer Programmers,15,Computer & Math,1,88,3,5,87.2,83,AI,109660.0,91018.0,4030.0,-86988.0,-79.3
+15-1252,Software Developers,15,Computer & Math,1,88,3,5,87.2,83,AI,1603000.0,1330490.0,3808.0,-1326682.0,-82.8
+15-1253,Software Quality Assurance Analysts,15,Computer & Math,2,78,3,5,76.5,73,AI,192020.0,140175.0,10736.0,-129438.0,-67.4
+15-1254,Web Developers,15,Computer & Math,1,88,3,5,87.2,83,AI,75510.0,62673.0,4035.0,-58638.0,-77.7
+15-1255,Web & Digital Interface Designers,15,Computer & Math,2,78,3,5,76.5,73,AI,108460.0,79176.0,10760.0,-68416.0,-63.1
+15-1299,Computer Occupations NEC,15,Computer & Math,2,78,3,5,76.5,73,AI,425060.0,310294.0,10670.0,-299624.0,-70.5
+15-2011,Actuaries,15,Computer & Math,2,78,3,5,76.5,73,AI,26540.0,19374.0,10783.0,-8591.0,-32.4
+15-2021,Mathematicians,15,Computer & Math,2,78,3,5,76.5,73,AI,1610.0,1175.0,10790.0,9615.0,597.2
+15-2031,Operations Research Analysts,15,Computer & Math,2,78,3,5,76.5,73,AI,106860.0,78008.0,10760.0,-67247.0,-62.9
+15-2041,Statisticians,15,Computer & Math,2,78,3,5,76.5,73,AI,28190.0,20579.0,10783.0,-9796.0,-34.8
+15-2051,Data Scientists,15,Computer & Math,1,78,3,5,77.2,73,AI,227600.0,166148.0,10646.0,-155502.0,-68.3
+15-2099,Mathematical Science Occupations NEC,15,Computer & Math,2,78,3,5,76.5,73,AI,3770.0,2752.0,10790.0,8037.0,213.2
+17-1011,Architects (except Naval),17,Architecture & Eng,10,56,3,10,50.7,46,AI,107970.0,49666.0,47034.0,-2632.0,-2.4
+17-1012,Landscape Architects,17,Architecture & Eng,10,56,3,10,50.7,46,AI,17110.0,7871.0,47081.0,39210.0,229.2
+17-1021,Cartographers & Photogrammetrists,17,Architecture & Eng,10,56,3,10,50.7,46,AI,10940.0,5032.0,47084.0,42052.0,384.4
+17-1022,Surveyors,17,Architecture & Eng,10,56,3,10,50.7,46,AI,51580.0,23727.0,47063.0,23336.0,45.2
+17-2011,Aerospace Engineers,17,Architecture & Eng,10,56,3,10,50.7,46,AI,63880.0,29385.0,47057.0,17672.0,27.7
+17-2021,Agricultural Engineers,17,Architecture & Eng,10,56,3,10,50.7,46,AI,770.0,354.0,47089.0,46735.0,6069.5
+17-2031,Bioengineers & Biomedical Engineers,17,Architecture & Eng,10,56,3,10,50.7,46,AI,20640.0,9494.0,47079.0,37585.0,182.1
+17-2041,Chemical Engineers,17,Architecture & Eng,10,56,3,10,50.7,46,AI,19030.0,8754.0,47080.0,38326.0,201.4
+17-2051,Civil Engineers,17,Architecture & Eng,10,56,3,10,50.7,46,AI,345420.0,158893.0,46912.0,-111981.0,-32.4
+17-2061,Computer Hardware Engineers,17,Architecture & Eng,10,56,3,10,50.7,46,AI,60280.0,27729.0,47059.0,19330.0,32.1
+17-2071,Electrical Engineers,17,Architecture & Eng,10,56,3,10,50.7,46,AI,184800.0,85008.0,46995.0,-38013.0,-20.6
+17-2072,Electronics Engineers (non-computer),17,Architecture & Eng,10,56,3,10,50.7,46,AI,88160.0,40554.0,47044.0,6491.0,7.4
+17-2081,Environmental Engineers,17,Architecture & Eng,10,56,3,10,50.7,46,AI,36150.0,16629.0,47071.0,30442.0,84.2
+17-2111,Health & Safety Engineers,17,Architecture & Eng,10,56,3,10,50.7,46,AI,22820.0,10497.0,47078.0,36581.0,160.3
+17-2112,Industrial Engineers,17,Architecture & Eng,10,56,3,10,50.7,46,AI,348260.0,160200.0,46910.0,-113289.0,-32.5
+17-2121,Marine Engineers & Naval Architects,17,Architecture & Eng,10,56,3,10,50.7,46,AI,5520.0,2539.0,47087.0,44548.0,807.0
+17-2131,Materials Engineers,17,Architecture & Eng,10,56,3,10,50.7,46,AI,21940.0,10092.0,47078.0,36986.0,168.6
+17-2141,Mechanical Engineers,17,Architecture & Eng,18,56,3,10,46.5,42,AI,279330.0,117319.0,56721.0,-60597.0,-21.7
+17-2151,Mining & Geological Engineers,17,Architecture & Eng,10,56,3,10,50.7,46,AI,5060.0,2328.0,47087.0,44760.0,884.6
+17-2161,Nuclear Engineers,17,Architecture & Eng,10,56,3,10,50.7,46,AI,12810.0,5893.0,47083.0,41191.0,321.6
+17-2171,Petroleum Engineers,17,Architecture & Eng,10,56,3,10,50.7,46,AI,17460.0,8032.0,47081.0,39049.0,223.6
+17-2199,Engineers NEC,17,Architecture & Eng,10,56,3,10,50.7,46,AI,148690.0,68397.0,47013.0,-21384.0,-14.4
+17-3011,Architectural & Civil Drafters,17,Architecture & Eng,10,56,3,10,50.7,46,AI,106780.0,49119.0,47035.0,-2084.0,-2.0
+17-3012,Electrical & Electronics Drafters,17,Architecture & Eng,10,56,3,10,50.7,46,AI,19040.0,8758.0,47080.0,38322.0,201.3
+17-3013,Mechanical Drafters,17,Architecture & Eng,18,56,3,10,46.5,42,AI,38690.0,16250.0,56840.0,40591.0,104.9
+17-3019,Drafters NEC,17,Architecture & Eng,10,56,3,10,50.7,46,AI,15080.0,6937.0,47082.0,40145.0,266.2
+17-3021,Aerospace Engineering Technicians,17,Architecture & Eng,10,56,3,10,50.7,46,AI,8020.0,3689.0,47086.0,43396.0,541.1
+17-3022,Civil Engineering Technicians,17,Architecture & Eng,10,56,3,10,50.7,46,AI,61460.0,28272.0,47058.0,18787.0,30.6
+17-3023,Electrical & Electronics Technicians,17,Architecture & Eng,10,56,3,10,50.7,46,AI,92180.0,42403.0,47042.0,4639.0,5.0
+17-3024,Electro-Mechanical & Mechatronics Technicians,17,Architecture & Eng,18,56,3,10,46.5,42,AI,13930.0,5851.0,56853.0,51002.0,366.1
+17-3025,Environmental Engineering Technicians,17,Architecture & Eng,10,56,3,10,50.7,46,AI,10450.0,4807.0,47084.0,42277.0,404.6
+17-3026,Industrial Engineering Technicians,17,Architecture & Eng,10,56,3,10,50.7,46,AI,73450.0,33787.0,47052.0,13265.0,18.1
+17-3027,Mechanical Engineering Technicians,17,Architecture & Eng,18,56,3,10,46.5,42,AI,36590.0,15368.0,56841.0,41474.0,113.3
+17-3028,Calibration Technicians,17,Architecture & Eng,10,56,3,10,50.7,46,AI,15120.0,6955.0,47082.0,40127.0,265.4
+17-3029,Engineering Technicians NEC,17,Architecture & Eng,10,56,3,10,50.7,46,AI,59580.0,27407.0,47059.0,19652.0,33.0
+17-3031,Surveying & Mapping Technicians,17,Architecture & Eng,10,56,3,10,50.7,46,AI,54420.0,25033.0,47062.0,22029.0,40.5
+19-1011,Animal Scientists,19,Life/Physical Science,10,48,3,15,43.5,37,AI,1500.0,555.0,62174.0,61619.0,4107.9
+19-1012,Food Scientists & Technologists,19,Life/Physical Science,10,48,3,15,43.5,37,AI,11850.0,4384.0,62168.0,57784.0,487.6
+19-1013,Soil & Plant Scientists,19,Life/Physical Science,10,48,3,15,43.5,37,AI,14560.0,5387.0,62167.0,56780.0,390.0
+19-1020,Biological Scientists,19,Life/Physical Science,10,48,3,15,43.5,37,AI,0.0,0.0,62175.0,62175.0,
+19-1022,Microbiologists,19,Life/Physical Science,18,48,3,15,39.9,34,AI,19380.0,6589.0,71570.0,64981.0,335.3
+19-1023,Zoologists & Wildlife Biologists,19,Life/Physical Science,18,48,3,15,39.9,34,AI,15750.0,5355.0,71572.0,66217.0,420.4
+19-1029,Biological Scientists NEC,19,Life/Physical Science,10,48,3,15,43.5,37,AI,59120.0,21874.0,62143.0,40268.0,68.1
+19-1031,Conservation Scientists,19,Life/Physical Science,10,48,3,15,43.5,37,AI,24390.0,9024.0,62162.0,53137.0,217.9
+19-1032,Foresters,19,Life/Physical Science,18,48,3,15,39.9,34,AI,9220.0,3135.0,71575.0,68441.0,742.3
+19-1041,Epidemiologists,19,Life/Physical Science,18,48,3,15,39.9,34,AI,10400.0,3536.0,71575.0,68039.0,654.2
+19-1042,Medical Scientists (except Epidemiologists),19,Life/Physical Science,10,48,3,15,43.5,37,AI,153130.0,56658.0,62091.0,5433.0,3.5
+19-2011,Astronomers,19,Life/Physical Science,18,48,3,15,39.9,34,AI,1080.0,367.0,71580.0,71212.0,6593.7
+19-2012,Physicists,19,Life/Physical Science,18,48,3,15,39.9,34,AI,19960.0,6786.0,71570.0,64784.0,324.6
+19-2021,Atmospheric & Space Scientists,19,Life/Physical Science,10,48,3,15,43.5,37,AI,7580.0,2805.0,62171.0,59366.0,783.2
+19-2031,Chemists,19,Life/Physical Science,18,48,3,15,39.9,34,AI,82240.0,27962.0,71539.0,43577.0,53.0
+19-2032,Materials Scientists,19,Life/Physical Science,10,48,3,15,43.5,37,AI,7850.0,2904.0,62171.0,59266.0,755.0
+19-2041,Environmental Scientists & Specialists,19,Life/Physical Science,10,48,3,15,43.5,37,AI,83140.0,30762.0,62130.0,31368.0,37.7
+19-2042,Geoscientists (except Hydrologists),19,Life/Physical Science,18,48,3,15,39.9,34,AI,20150.0,6851.0,71570.0,64719.0,321.2
+19-2043,Hydrologists,19,Life/Physical Science,18,48,3,15,39.9,34,AI,4850.0,1649.0,71578.0,69929.0,1441.8
+19-2099,Physical Scientists NEC,19,Life/Physical Science,10,48,3,15,43.5,37,AI,21240.0,7859.0,62163.0,54304.0,255.7
+19-3011,Economists,19,Life/Physical Science,18,48,3,15,39.9,34,AI,14980.0,5093.0,71573.0,66479.0,443.8
+19-3022,Survey Researchers,19,Life/Physical Science,18,48,3,15,39.9,34,AI,6440.0,2190.0,71577.0,69387.0,1077.4
+19-3031,Clinical & Counseling Psychologists,19,Life/Physical Science,18,20,3,80,16.9,3,AI,0.0,0.0,118222.0,118222.0,
+19-3032,Industrial-Organizational Psychologists,19,Life/Physical Science,18,30,3,80,25.1,5,AI,180.0,9.0,127972.0,127963.0,71090.5
+19-3033,Psychologists NEC,19,Life/Physical Science,18,30,3,80,25.1,5,AI,67600.0,3380.0,127961.0,124581.0,184.3
+19-3034,School Psychologists,19,Life/Physical Science,18,30,3,80,25.1,5,AI,63280.0,3164.0,127962.0,124798.0,197.2
+19-3041,Sociologists,19,Life/Physical Science,18,48,3,15,39.9,34,AI,2150.0,731.0,71579.0,70848.0,3295.3
+19-3051,Urban & Regional Planners,19,Life/Physical Science,18,48,3,15,39.9,34,AI,41900.0,14246.0,71559.0,57313.0,136.8
+19-3091,Anthropologists & Archeologists,19,Life/Physical Science,18,48,3,15,39.9,34,AI,6410.0,2179.0,71577.0,69397.0,1082.6
+19-3092,Geographers,19,Life/Physical Science,18,48,3,15,39.9,34,AI,630.0,214.0,71580.0,71366.0,11327.9
+19-3093,Historians,19,Life/Physical Science,18,48,3,15,39.9,34,AI,2410.0,819.0,71579.0,70759.0,2936.1
+19-3094,Political Scientists,19,Life/Physical Science,10,48,3,15,43.5,37,AI,5330.0,1972.0,62172.0,60200.0,1129.5
+19-3099,Social Scientists & Related NEC,19,Life/Physical Science,10,48,3,15,43.5,37,AI,36150.0,13376.0,62155.0,48780.0,134.9
+19-4010,Agricultural & Food Science Technicians,19,Life/Physical Science,18,48,3,15,39.9,34,AI,0.0,0.0,71580.0,71580.0,
+19-4021,Biological Technicians,19,Life/Physical Science,18,48,3,15,39.9,34,AI,74820.0,25439.0,71542.0,46104.0,61.6
+19-4031,Chemical Technicians,19,Life/Physical Science,18,48,3,15,39.9,34,AI,55570.0,18894.0,71552.0,52658.0,94.8
+19-4041,Environmental Science Technicians,19,Life/Physical Science,18,48,3,15,39.9,34,AI,0.0,0.0,71580.0,71580.0,
+19-4051,Nuclear Technicians,19,Life/Physical Science,18,48,3,15,39.9,34,AI,3810.0,1295.0,71578.0,70283.0,1844.7
+19-4061,Social Science Research Assistants,19,Life/Physical Science,23,48,2,15,37.4,32,AI,29720.0,9510.0,77481.0,67971.0,228.7
+19-4071,Forest & Conservation Technicians,19,Life/Physical Science,18,48,3,15,39.9,34,AI,28150.0,9571.0,71566.0,61995.0,220.2
+19-4092,Forensic Science Technicians,19,Life/Physical Science,18,48,3,15,39.9,34,AI,18560.0,6310.0,71571.0,65260.0,351.6
+19-4099,"Life, Physical & Social Science Technicians NEC",19,Life/Physical Science,18,48,3,15,39.9,34,AI,68700.0,23358.0,71546.0,48188.0,70.1
+21-1011,Substance Abuse & Behavioral Disorder Counselors,21,Community & Social,6,22,2,58,20.8,9,AI,0.0,0.0,96215.0,96215.0,
+21-1012,"Educational, Guidance & Career Counselors",21,Community & Social,6,22,2,55,20.8,9,AI,337360.0,30362.0,96112.0,65750.0,19.5
+21-1013,Marriage & Family Therapists,21,Community & Social,6,18,3,68,17.1,5,AI,63890.0,3194.0,99000.0,95805.0,150.0
+21-1014,Mental Health Counselors,21,Community & Social,6,22,2,58,20.8,9,AI,0.0,0.0,96215.0,96215.0,
+21-1015,Rehabilitation Counselors,21,Community & Social,6,22,2,55,20.8,9,AI,88390.0,7955.0,96188.0,88233.0,99.8
+21-1019,Counselors NEC,21,Community & Social,6,22,2,55,20.8,9,AI,32010.0,2881.0,96205.0,93325.0,291.5
+21-1021,"Child, Family & School Social Workers",21,Community & Social,6,32,3,55,30.3,14,AI,378740.0,53024.0,97592.0,44568.0,11.8
+21-1022,Healthcare Social Workers,21,Community & Social,6,32,3,55,30.3,14,AI,183040.0,25626.0,97671.0,72046.0,39.4
+21-1023,Mental Health & Substance Abuse Social Workers,21,Community & Social,6,32,3,58,30.3,13,AI,124290.0,16158.0,99984.0,83826.0,67.4
+21-1029,Social Workers NEC,21,Community & Social,6,32,3,55,30.3,14,AI,62750.0,8785.0,97720.0,88935.0,141.7
+21-1091,Health Educators,21,Community & Social,6,32,3,58,30.3,13,AI,65090.0,8462.0,100007.0,91545.0,140.6
+21-1092,Probation Officers & Correctional Treatment Specialists,21,Community & Social,6,32,3,55,30.3,14,AI,83970.0,11756.0,97711.0,85956.0,102.4
+21-1093,Social & Human Service Assistants,21,Community & Social,11,32,3,55,28.8,13,AI,425330.0,55293.0,104135.0,48842.0,11.5
+21-1094,Community Health Workers,21,Community & Social,6,32,3,55,30.3,14,AI,59940.0,8392.0,97721.0,89330.0,149.0
+21-2011,Clergy,21,Community & Social,6,20,2,90,18.9,2,AI,57600.0,1152.0,108463.0,107311.0,186.3
+21-2021,Directors of Religious Activities,21,Community & Social,6,32,3,55,30.3,14,AI,19760.0,2766.0,97737.0,94971.0,480.6
+21-2099,Religious Workers NEC,21,Community & Social,6,32,3,55,30.3,14,AI,8840.0,1238.0,97742.0,96504.0,1091.7
+23-1011,Lawyers,23,Legal,3,60,3,70,58.3,17,AI,733320.0,124664.0,105992.0,-18673.0,-2.5
+23-1012,Judicial Law Clerks,23,Legal,3,60,3,45,58.3,32,AI,11070.0,3542.0,71386.0,67844.0,612.9
+23-1020,Administrative Law Judges,23,Legal,3,60,3,92,58.3,5,AI,0.0,0.0,139344.0,139344.0,
+23-1021,"Arbitrators, Mediators & Conciliators",23,Legal,3,60,3,75,58.3,15,AI,12900.0,1935.0,111546.0,109611.0,849.7
+23-1022,Judges & Magistrates,23,Legal,3,60,3,92,58.3,5,AI,2900.0,145.0,139343.0,139198.0,4799.9
+23-1023,Hearing Officers,23,Legal,3,60,3,45,58.3,32,AI,22740.0,7277.0,71379.0,64102.0,281.9
+23-2011,Paralegals & Legal Assistants,23,Legal,8,70,3,45,64.6,36,AI,362550.0,130518.0,64743.0,-65775.0,-18.1
+23-2093,Legal Support Workers NEC,23,Legal,3,60,3,45,58.3,32,AI,46000.0,14720.0,71364.0,56644.0,123.1
+25-1011,"Business Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,80230.0,12034.0,101730.0,89695.0,111.8
+25-1012,"Computer Science Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,0.0,0.0,101763.0,101763.0,
+25-1021,"Computer Science Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,35650.0,5348.0,101749.0,96401.0,270.4
+25-1022,"Mathematical Science Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,48090.0,7214.0,101743.0,94530.0,196.6
+25-1031,"Architecture & Engineering Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,7630.0,1144.0,101760.0,100616.0,1318.7
+25-1041,"Agricultural Sciences Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,8400.0,1260.0,101760.0,100500.0,1196.4
+25-1042,"Biological Science Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,48520.0,7278.0,101743.0,94465.0,194.7
+25-1043,"Forestry & Conservation Science Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,860.0,129.0,101763.0,101634.0,11817.9
+25-1051,"Atmospheric, Earth & Geosciences Teachers",25,Education & Library,6,38,3,58,35.9,15,AI,10790.0,1618.0,101759.0,100140.0,928.1
+25-1052,"Chemistry Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,20230.0,3034.0,101755.0,98720.0,488.0
+25-1053,"Environmental Science Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,6460.0,969.0,101761.0,100792.0,1560.2
+25-1054,"Physics Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,13150.0,1972.0,101758.0,99785.0,758.8
+25-1061,"Anthropology & Archeology Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,4650.0,698.0,101762.0,101064.0,2173.4
+25-1062,"Area, Ethnic & Cultural Studies Teachers",25,Education & Library,6,38,3,58,35.9,15,AI,10780.0,1617.0,101759.0,100142.0,929.0
+25-1063,"Economics Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,11800.0,1770.0,101759.0,99989.0,847.4
+25-1064,"Geography Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,2920.0,438.0,101762.0,101324.0,3470.0
+25-1065,"Political Science Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,16500.0,2475.0,101757.0,99282.0,601.7
+25-1066,"Psychology Teachers, Postsecondary",25,Education & Library,6,20,3,80,19.0,4,AI,41140.0,1646.0,104241.0,102595.0,249.4
+25-1067,"Sociology Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,12180.0,1827.0,101758.0,99931.0,820.5
+25-1069,"Social Sciences Teachers NEC, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,17820.0,2673.0,101756.0,99083.0,556.0
+25-1071,"Health Specialties Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,214690.0,32204.0,101673.0,69470.0,32.4
+25-1072,"Nursing Instructors & Teachers, Postsecondary",25,Education & Library,6,38,3,65,35.9,13,AI,73510.0,9556.0,106581.0,97024.0,132.0
+25-1081,"Education Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,58380.0,8757.0,101739.0,92982.0,159.3
+25-1082,"Library Science Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,3660.0,549.0,101762.0,101213.0,2765.4
+25-1111,Criminal Justice & Law Enforcement Teachers,25,Education & Library,6,38,3,92,35.9,3,AI,12810.0,384.0,132524.0,132139.0,1031.5
+25-1112,"Law Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,10610.0,1592.0,101759.0,100168.0,944.1
+25-1113,"Social Work Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,12290.0,1844.0,101758.0,99915.0,813.0
+25-1121,"Art, Drama & Music Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,96110.0,14416.0,101723.0,87307.0,90.8
+25-1122,"Communications Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,28690.0,4304.0,101751.0,97448.0,339.7
+25-1123,English Language & Literature Teachers,25,Education & Library,6,38,3,58,35.9,15,AI,58640.0,8796.0,101739.0,92943.0,158.5
+25-1124,Foreign Language & Literature Teachers,25,Education & Library,6,38,3,58,35.9,15,AI,20560.0,3084.0,101755.0,98671.0,479.9
+25-1125,"History Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,19470.0,2920.0,101755.0,98835.0,507.6
+25-1126,"Philosophy & Religion Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,20170.0,3026.0,101755.0,98730.0,489.5
+25-1127,"Vocational Education Teachers, Postsecondary",25,Education & Library,6,38,3,58,35.9,15,AI,0.0,0.0,101763.0,101763.0,
+25-1199,Postsecondary Teachers NEC,25,Education & Library,6,38,3,58,35.9,15,AI,151790.0,22768.0,101700.0,78931.0,52.0
+25-2011,Preschool Teachers,25,Education & Library,6,38,2,58,35.8,15,AI,442540.0,66381.0,101578.0,35197.0,8.0
+25-2012,Kindergarten Teachers,25,Education & Library,6,38,3,58,35.9,15,AI,115710.0,17356.0,101715.0,84358.0,72.9
+25-2021,Elementary School Teachers,25,Education & Library,6,38,3,58,35.9,15,AI,1373840.0,206076.0,101187.0,-104889.0,-7.6
+25-2022,Middle School Teachers,25,Education & Library,6,38,3,58,35.9,15,AI,610420.0,91563.0,101507.0,9944.0,1.6
+25-2023,Career/Technical Ed Teachers (Middle School),25,Education & Library,6,38,3,58,35.9,15,AI,13430.0,2014.0,101758.0,99743.0,742.7
+25-2031,Secondary School Teachers,25,Education & Library,6,38,3,58,35.9,15,AI,1061130.0,159170.0,101318.0,-57852.0,-5.5
+25-2032,Career/Technical Ed Teachers (Secondary),25,Education & Library,6,38,3,58,35.9,15,AI,103060.0,15459.0,101720.0,86261.0,83.7
+25-2051,Special Education Teachers (Preschool),25,Education & Library,6,38,2,58,35.8,15,AI,26870.0,4030.0,101752.0,97722.0,363.7
+25-2052,Special Education Teachers (K-12),25,Education & Library,6,38,3,58,35.9,15,AI,229490.0,34424.0,101667.0,67244.0,29.3
+25-2053,Special Education Teachers (Secondary),25,Education & Library,6,38,3,58,35.9,15,AI,0.0,0.0,101763.0,101763.0,
+25-2059,Special Education Teachers NEC,25,Education & Library,6,38,3,58,35.9,15,AI,39650.0,5948.0,101747.0,95799.0,241.6
+25-3011,Adult Literacy Teachers,25,Education & Library,6,38,3,58,35.9,15,AI,35160.0,5274.0,101749.0,96475.0,274.4
+25-3021,Self-Enrichment Teachers,25,Education & Library,6,38,3,58,35.9,15,AI,300170.0,45026.0,101637.0,56612.0,18.9
+25-3031,Substitute Teachers,25,Education & Library,6,38,3,58,35.9,15,AI,467690.0,70154.0,101567.0,31414.0,6.7
+25-3041,Tutors,25,Education & Library,6,38,3,42,35.9,21,AI,171900.0,36099.0,87817.0,51718.0,30.1
+25-3099,Teachers & Instructors NEC,25,Education & Library,6,38,3,58,35.9,15,AI,128100.0,19215.0,101710.0,82495.0,64.4
+25-4011,Archivists,25,Education & Library,6,38,3,42,35.9,21,AI,6710.0,1409.0,87901.0,86491.0,1289.0
+25-4012,Curators,25,Education & Library,6,38,3,42,35.9,21,AI,11890.0,2497.0,87898.0,85401.0,718.3
+25-4013,Museum Technicians & Conservators,25,Education & Library,6,38,3,42,35.9,21,AI,12820.0,2692.0,87897.0,85205.0,664.6
+25-4022,Librarians & Media Specialists,25,Education & Library,6,38,3,42,35.9,21,AI,131070.0,27525.0,87837.0,60313.0,46.0
+25-4031,Library Technicians,25,Education & Library,6,38,3,42,35.9,21,AI,71520.0,15019.0,87868.0,72848.0,101.9
+25-9011,Audio-Visual & Multimedia Collections Specialists,25,Education & Library,6,38,3,42,35.9,21,AI,0.0,0.0,87904.0,87904.0,
+25-9021,Farm & Home Management Educators,25,Education & Library,6,38,3,58,35.9,15,AI,10140.0,1521.0,101759.0,100238.0,988.5
+25-9031,Instructional Coordinators,25,Education & Library,1,38,3,42,37.6,22,AI,208690.0,45912.0,81949.0,36038.0,17.3
+25-9041,Teacher Assistants,25,Education & Library,11,38,3,58,34.1,14,AI,0.0,0.0,108378.0,108378.0,
+25-9099,Educational Instruction NEC,25,Education & Library,6,38,3,42,35.9,21,AI,111800.0,23478.0,87847.0,64369.0,57.6
+27-1011,Art Directors,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,49360.0,13821.0,86623.0,72802.0,147.5
+27-1013,"Fine Artists (Painters, Sculptors, Illustrators)",27,Arts & Entertainment,18,52,14,35,45.2,29,AI,9070.0,2630.0,84253.0,81623.0,899.9
+27-1014,Special Effects Artists & Animators,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,18550.0,5194.0,86638.0,81444.0,439.1
+27-1019,Artists & Related Workers NEC,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,4100.0,1148.0,86646.0,85498.0,2085.3
+27-1021,Commercial & Industrial Designers,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,29180.0,8170.0,86633.0,78463.0,268.9
+27-1022,Fashion Designers,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,20410.0,5715.0,86638.0,80923.0,396.5
+27-1023,Floral Designers,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,39450.0,11046.0,86628.0,75582.0,191.6
+27-1024,Graphic Designers,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,210840.0,59035.0,86542.0,27507.0,13.0
+27-1025,Interior Designers,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,66650.0,18662.0,86614.0,67952.0,102.0
+27-1026,Merchandise Displayers & Window Trimmers,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,189110.0,52951.0,86553.0,33602.0,17.8
+27-1029,Designers NEC,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,8830.0,2472.0,86643.0,84171.0,953.2
+27-2011,Actors,27,Arts & Entertainment,18,52,4,55,43.4,20,AI,35800.0,7160.0,106957.0,99797.0,278.8
+27-2012,Producers & Directors,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,143610.0,40211.0,86576.0,46365.0,32.3
+27-2021,Athletes & Sports Competitors,27,Arts & Entertainment,18,42,4,72,35.2,10,AI,11460.0,1146.0,128299.0,127153.0,1109.5
+27-2022,Coaches & Scouts,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,248300.0,69524.0,86524.0,17000.0,6.8
+27-2023,"Umpires, Referees & Sports Officials",27,Arts & Entertainment,18,42,4,35,35.2,23,AI,13900.0,3197.0,93907.0,90710.0,652.6
+27-2031,Dancers,27,Arts & Entertainment,18,44,4,35,36.8,24,AI,7630.0,1831.0,92751.0,90919.0,1191.6
+27-2032,Choreographers,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,2780.0,778.0,86646.0,85868.0,3088.8
+27-2041,Music Directors & Composers,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,11870.0,3324.0,86642.0,83318.0,701.9
+27-2042,Musicians & Singers,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,30110.0,8431.0,86633.0,78202.0,259.7
+27-2099,Entertainers & Performers NEC,27,Arts & Entertainment,18,44,4,55,36.8,17,AI,12960.0,2203.0,110622.0,108419.0,836.6
+27-3011,Broadcast Announcers & Radio Disc Jockeys,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,23540.0,6591.0,86636.0,80045.0,340.0
+27-3021,Court Reporters & Simultaneous Captioners,27,Arts & Entertainment,18,64,4,35,53.2,35,AI,0.0,0.0,71751.0,71751.0,
+27-3022,"News Analysts, Reporters & Journalists",27,Arts & Entertainment,18,52,4,35,43.4,28,AI,0.0,0.0,86648.0,86648.0,
+27-3031,Public Relations Specialists,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,274340.0,76815.0,86511.0,9695.0,3.5
+27-3041,Editors,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,94180.0,26370.0,86601.0,60230.0,64.0
+27-3042,Technical Writers,27,Arts & Entertainment,18,64,4,35,53.2,35,AI,53540.0,18739.0,71722.0,52983.0,99.0
+27-3043,Writers & Authors,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,45660.0,12785.0,86625.0,73840.0,161.7
+27-3091,Interpreters & Translators,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,52550.0,14714.0,86621.0,71907.0,136.8
+27-3092,Court Interpreters,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,11630.0,3256.0,86642.0,83386.0,717.0
+27-3099,Media & Communication Workers NEC,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,19280.0,5398.0,86638.0,81240.0,421.4
+27-4011,Audio & Video Technicians,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,69480.0,19454.0,86613.0,67159.0,96.7
+27-4012,Broadcast Technicians,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,20170.0,5648.0,86638.0,80990.0,401.5
+27-4014,Sound Engineering Technicians,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,12680.0,3550.0,86641.0,83091.0,655.3
+27-4021,Photographers,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,50230.0,14064.0,86623.0,72558.0,144.5
+27-4031,Camera Operators (Film/Video/TV),27,Arts & Entertainment,18,52,4,35,43.4,28,AI,23950.0,6706.0,86636.0,79930.0,333.7
+27-4032,Film & Video Editors,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,27660.0,7745.0,86634.0,78889.0,285.2
+27-4099,Media & Communication Equipment Workers NEC,27,Arts & Entertainment,18,52,4,35,43.4,28,AI,7410.0,2075.0,86644.0,84569.0,1141.3
+29-1011,Chiropractors,29,Healthcare Practitioners,38,43,13,62,31.6,12,AI,36540.0,4385.0,126534.0,122150.0,334.3
+29-1021,Dentists (General),29,Healthcare Practitioners,38,43,13,62,31.6,12,AI,107180.0,12862.0,126515.0,113653.0,106.0
+29-1022,Oral & Maxillofacial Surgeons,29,Healthcare Practitioners,38,21,19,77,20.2,5,AI,2800.0,140.0,125776.0,125636.0,4487.0
+29-1023,Orthodontists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,2540.0,330.0,123684.0,123354.0,4856.5
+29-1024,Prosthodontists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,0.0,0.0,123685.0,123685.0,
+29-1029,Dentists NEC,29,Healthcare Practitioners,38,43,13,62,31.6,12,AI,2100.0,252.0,126544.0,126292.0,6013.9
+29-1031,Dietitians & Nutritionists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,75080.0,9760.0,123663.0,113902.0,151.7
+29-1041,Optometrists,29,Healthcare Practitioners,38,43,13,62,31.6,12,AI,41110.0,4933.0,126533.0,121600.0,295.8
+29-1051,Pharmacists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,326240.0,42411.0,123588.0,81177.0,24.9
+29-1061,Anesthesiologists,29,Healthcare Practitioners,38,43,13,68,31.6,10,AI,0.0,0.0,132362.0,132362.0,
+29-1062,Obstetricians & Gynecologists,29,Healthcare Practitioners,38,43,13,68,31.6,10,AI,0.0,0.0,132362.0,132362.0,
+29-1063,Surgeons (General),29,Healthcare Practitioners,38,21,19,77,20.2,5,AI,0.0,0.0,125777.0,125777.0,
+29-1064,Physicians (General/Family Practice),29,Healthcare Practitioners,30,46,10,73,35.2,10,AI,0.0,0.0,135988.0,135988.0,
+29-1065,Pediatricians,29,Healthcare Practitioners,38,43,13,68,31.6,10,AI,0.0,0.0,132362.0,132362.0,
+29-1066,Psychiatrists,29,Healthcare Practitioners,38,25,13,85,20.4,3,AI,0.0,0.0,135856.0,135856.0,
+29-1067,Family Medicine Physicians,29,Healthcare Practitioners,30,46,10,73,35.2,10,AI,0.0,0.0,135988.0,135988.0,
+29-1069,Physicians NEC,29,Healthcare Practitioners,30,46,10,73,35.2,10,AI,0.0,0.0,135988.0,135988.0,
+29-1071,Physician Assistants,29,Healthcare Practitioners,35,44,12,73,32.8,9,AI,152470.0,13722.0,136994.0,123272.0,80.9
+29-1081,Podiatrists,29,Healthcare Practitioners,38,43,13,62,31.6,12,AI,8060.0,967.0,126542.0,125575.0,1558.0
+29-1122,Occupational Therapists,29,Healthcare Practitioners,38,29,13,68,22.9,7,AI,148840.0,10419.0,129029.0,118611.0,79.7
+29-1123,Physical Therapists,29,Healthcare Practitioners,38,29,13,68,22.9,7,AI,243700.0,17059.0,129012.0,111953.0,45.9
+29-1124,Radiation Therapists,29,Healthcare Practitioners,38,29,13,68,22.9,7,AI,16040.0,1123.0,129054.0,127931.0,797.6
+29-1125,Recreational Therapists,29,Healthcare Practitioners,38,29,13,68,22.9,7,AI,14720.0,1030.0,129054.0,128024.0,869.7
+29-1126,Respiratory Therapists,29,Healthcare Practitioners,38,29,13,68,22.9,7,AI,135090.0,9456.0,129032.0,119576.0,88.5
+29-1127,Speech-Language Pathologists,29,Healthcare Practitioners,38,43,13,68,31.6,10,AI,174110.0,17411.0,132319.0,114908.0,66.0
+29-1128,Exercise Physiologists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,7020.0,913.0,123683.0,122770.0,1748.9
+29-1129,Therapists NEC,29,Healthcare Practitioners,38,29,13,68,22.9,7,AI,18370.0,1286.0,129053.0,127768.0,695.5
+29-1141,Registered Nurses,29,Healthcare Practitioners,38,43,13,65,31.6,11,AI,3251390.0,357653.0,128582.0,-229071.0,-7.0
+29-1151,Nurse Anesthetists,29,Healthcare Practitioners,30,46,10,65,35.2,12,AI,48120.0,5774.0,129998.0,124223.0,258.2
+29-1161,Nurse Midwives,29,Healthcare Practitioners,30,46,10,65,35.2,12,AI,7380.0,886.0,130009.0,129124.0,1749.6
+29-1171,Nurse Practitioners,29,Healthcare Practitioners,18,46,9,65,39.3,14,AI,303510.0,42491.0,120292.0,77801.0,25.6
+29-1181,Audiologists,29,Healthcare Practitioners,38,43,13,62,31.6,12,AI,13220.0,1586.0,126541.0,124954.0,945.2
+29-1211,Acupuncturists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,31340.0,4074.0,123676.0,119601.0,381.6
+29-1214,Emergency Medicine Physicians,29,Healthcare Practitioners,30,46,8,73,34.6,9,AI,25950.0,2336.0,139021.0,136685.0,526.7
+29-1215,Hospitalists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,105540.0,13720.0,123654.0,109933.0,104.2
+29-1216,Radiologists,29,Healthcare Practitioners,38,43,13,68,31.6,10,AI,65800.0,6580.0,132346.0,125766.0,191.1
+29-1217,Pathologists,29,Healthcare Practitioners,38,43,13,68,31.6,10,AI,5590.0,559.0,132361.0,131802.0,2357.8
+29-1218,Cardiologists,29,Healthcare Practitioners,38,43,13,68,31.6,10,AI,14990.0,1499.0,132358.0,130859.0,873.0
+29-1219,Physicians NEC (Specialty),29,Healthcare Practitioners,30,46,10,73,35.2,10,AI,0.0,0.0,135988.0,135988.0,
+29-1221,Dental Hygienists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,42240.0,5491.0,123672.0,118181.0,279.8
+29-1292,Dental Therapists,29,Healthcare Practitioners,38,29,13,68,22.9,7,AI,214530.0,15017.0,129017.0,114000.0,53.1
+29-2010,Medical & Clinical Lab Technologists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,341160.0,44351.0,123584.0,79233.0,23.2
+29-2011,Medical & Clinical Lab Technicians,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,0.0,0.0,123685.0,123685.0,
+29-2012,Histotechnologists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,0.0,0.0,123685.0,123685.0,
+29-2013,Clinical Lab Technicians (Medical),29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,0.0,0.0,123685.0,123685.0,
+29-2031,Cardiovascular Technologists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,61020.0,7933.0,123667.0,115734.0,189.7
+29-2032,Diagnostic Medical Sonographers,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,85660.0,11136.0,123659.0,112524.0,131.4
+29-2033,Nuclear Medicine Technologists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,16840.0,2189.0,123680.0,121491.0,721.4
+29-2034,Radiologic Technologists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,221210.0,28757.0,123619.0,94862.0,42.9
+29-2035,Magnetic Resonance Imaging Technologists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,40990.0,5329.0,123673.0,118344.0,288.7
+29-2036,Medical Dosimetrists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,3230.0,420.0,123684.0,123264.0,3816.2
+29-2041,Emergency Medical Technicians,29,Healthcare Practitioners,38,43,8,58,29.7,12,AI,0.0,0.0,126545.0,126545.0,
+29-2042,Paramedics,29,Healthcare Practitioners,38,43,8,62,29.7,11,AI,175480.0,19303.0,129391.0,110088.0,62.7
+29-2051,Dietetic Technicians,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,29560.0,3843.0,123676.0,119833.0,405.4
+29-2052,Pharmacy Technicians,29,Healthcare Practitioners,38,43,28,58,37.3,16,AI,487970.0,78075.0,115136.0,37061.0,7.6
+29-2053,Psychiatric Technicians,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,134700.0,17511.0,123645.0,106134.0,78.8
+29-2055,Surgical Technologists,29,Healthcare Practitioners,38,43,9,58,30.1,13,AI,112400.0,14612.0,123652.0,109040.0,97.0
+29-2056,Veterinary Technologists & Technicians,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,127520.0,16578.0,123647.0,107069.0,84.0
+29-2057,Ophthalmic Medical Technicians,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,74860.0,9732.0,123663.0,113931.0,152.2
+29-2061,Licensed Practical & Vocational Nurses,29,Healthcare Practitioners,38,43,13,65,31.6,11,AI,630840.0,69392.0,129271.0,59879.0,9.5
+29-2081,Opticians (Dispensing),29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,79310.0,10310.0,123661.0,113351.0,142.9
+29-2082,Orthotists & Prosthetists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,0.0,0.0,123685.0,123685.0,
+29-2092,Hearing Aid Specialists,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,9690.0,1260.0,123682.0,122422.0,1263.4
+29-2099,Health Technologists NEC,29,Healthcare Practitioners,38,43,13,58,31.6,13,AI,172300.0,22399.0,123634.0,101235.0,58.8
+31-1121,Home Health & Personal Care Aides,31,Healthcare Support,68,19,23,45,21.7,12,Robotic,0.0,0.0,93071.0,93071.0,
+31-1131,Nursing Assistants,31,Healthcare Support,63,20,21,65,20.6,7,Robotic,1368760.0,95813.0,108360.0,12547.0,0.9
+31-1132,Orderlies,31,Healthcare Support,58,22,19,45,20.3,11,Both,52440.0,5768.0,104047.0,98279.0,187.4
+31-1133,Psychiatric Aides,31,Healthcare Support,68,19,23,45,21.7,12,Robotic,34210.0,4105.0,93060.0,88955.0,260.0
+31-2011,Occupational Therapy Assistants,31,Healthcare Support,63,20,21,45,20.6,11,Robotic,46960.0,5166.0,99475.0,94309.0,200.8
+31-2012,Occupational Therapy Aides,31,Healthcare Support,68,19,23,45,21.7,12,Robotic,3570.0,428.0,93069.0,92641.0,2595.0
+31-2021,Physical Therapist Assistants,31,Healthcare Support,63,6,21,68,15.4,5,Robotic,106840.0,5342.0,106800.0,101458.0,95.0
+31-2022,Physical Therapist Aides,31,Healthcare Support,68,5,23,68,17.2,6,Robotic,43560.0,2614.0,101302.0,98688.0,226.6
+31-9011,Massage Therapists,31,Healthcare Support,58,5,2,68,3.3,1,AI,91260.0,913.0,117758.0,116845.0,128.0
+31-9091,Dental Assistants,31,Healthcare Support,63,20,21,45,20.6,11,Robotic,370410.0,40745.0,99382.0,58637.0,15.8
+31-9092,Medical Assistants,31,Healthcare Support,63,20,21,45,20.6,11,Robotic,781960.0,86016.0,99265.0,13249.0,1.7
+31-9093,Medical Equipment Preparers,31,Healthcare Support,58,22,19,45,20.3,11,Both,71540.0,7869.0,104042.0,96173.0,134.4
+31-9094,Medical Transcriptionists,31,Healthcare Support,58,40,19,45,27.8,15,Both,42150.0,6322.0,101917.0,95594.0,226.8
+31-9095,Pharmacy Aides,31,Healthcare Support,68,19,23,45,21.7,12,Robotic,41960.0,5035.0,93057.0,88022.0,209.8
+31-9096,Veterinary Assistants & Laboratory Animal Caretakers,31,Healthcare Support,63,20,21,45,20.6,11,Robotic,111300.0,12243.0,99456.0,87213.0,78.4
+31-9097,Phlebotomists,31,Healthcare Support,58,22,19,45,20.3,11,Both,137390.0,15113.0,104024.0,88911.0,64.7
+31-9099,Healthcare Support Workers NEC,31,Healthcare Support,58,22,19,45,20.3,11,Both,100930.0,11102.0,104034.0,92932.0,92.1
+33-1011,Supervisors of Police & Detectives,33,Protective Service,52,30,13,62,21.2,8,AI,52400.0,4192.0,120373.0,116181.0,221.7
+33-1012,Supervisors of Firefighting & Prevention Workers,33,Protective Service,52,30,13,52,21.2,10,AI,153680.0,15368.0,115168.0,99800.0,64.9
+33-1021,Supervisors of Firefighting (Forest),33,Protective Service,52,30,13,52,21.2,10,AI,91720.0,9172.0,115184.0,106012.0,115.6
+33-1099,Supervisors of Protective Service NEC,33,Protective Service,52,30,13,52,21.2,10,AI,19090.0,1909.0,115202.0,113293.0,593.5
+33-2011,Firefighters,33,Protective Service,52,22,7,62,14.2,5,AI,320870.0,16044.0,122806.0,106763.0,33.3
+33-2012,Fire Inspectors & Investigators,33,Protective Service,52,30,13,52,21.2,10,AI,0.0,0.0,115207.0,115207.0,
+33-2021,Fire Inspectors,33,Protective Service,52,30,13,52,21.2,10,AI,11110.0,1111.0,115204.0,114093.0,1026.9
+33-3011,Bailiffs,33,Protective Service,52,30,13,70,21.2,6,AI,17400.0,1044.0,125672.0,124628.0,716.3
+33-3012,Correctional Officers & Jailers,33,Protective Service,52,30,13,55,21.2,10,AI,357770.0,35777.0,115117.0,79340.0,22.2
+33-3021,Detectives & Criminal Investigators,33,Protective Service,52,30,13,55,21.2,10,AI,106340.0,10634.0,115180.0,104546.0,98.3
+33-3031,Fish & Game Wardens,33,Protective Service,52,30,13,52,21.2,10,AI,5770.0,577.0,115205.0,114628.0,1986.6
+33-3041,Parking Enforcement Workers,33,Protective Service,52,30,13,52,21.2,10,AI,7250.0,725.0,115205.0,114480.0,1579.0
+33-3051,Police & Sheriff Patrol Officers,33,Protective Service,52,30,13,62,21.2,8,AI,669160.0,53533.0,120244.0,66711.0,10.0
+33-3052,Transit & Railroad Police,33,Protective Service,52,30,13,62,21.2,8,AI,1890.0,151.0,120383.0,120232.0,6361.5
+33-9011,Animal Control Workers,33,Protective Service,52,30,13,52,21.2,10,AI,11510.0,1151.0,115204.0,114053.0,990.9
+33-9021,Private Detectives & Investigators,33,Protective Service,52,30,13,55,21.2,10,AI,38210.0,3821.0,115197.0,111376.0,291.5
+33-9031,Gambling Surveillance Officers,33,Protective Service,52,30,13,52,21.2,10,AI,9460.0,946.0,115204.0,114258.0,1207.8
+33-9032,Security Guards,33,Protective Service,52,30,13,52,21.2,10,AI,1254680.0,125468.0,114892.0,-10576.0,-0.8
+33-9091,Crossing Guards & Flaggers,33,Protective Service,52,30,13,52,21.2,10,AI,88110.0,8811.0,115185.0,106374.0,120.7
+33-9093,Transportation Security Screeners,33,Protective Service,52,20,13,52,16.4,8,Both,46010.0,3681.0,113833.0,110152.0,239.4
+33-9099,Protective Service Workers NEC,33,Protective Service,52,30,13,52,21.2,10,AI,78370.0,7837.0,115187.0,107350.0,137.0
+35-1011,Chefs & Head Cooks,35,Food Preparation,80,5,31,8,25.8,24,Robotic,179120.0,42989.0,60588.0,17600.0,9.8
+35-1012,First-Line Supervisors of Food Preparation,35,Food Preparation,80,5,31,8,25.8,24,Robotic,1168890.0,280534.0,60083.0,-220451.0,-18.9
+35-2011,Cooks (Fast Food),35,Food Preparation,80,5,31,8,25.8,24,Robotic,662040.0,158890.0,60342.0,-98548.0,-14.9
+35-2012,Cooks (Institution & Cafeteria),35,Food Preparation,80,5,31,8,25.8,24,Robotic,446810.0,107234.0,60452.0,-46783.0,-10.5
+35-2013,Cooks (Private Household),35,Food Preparation,80,5,31,8,25.8,24,Robotic,0.0,0.0,60680.0,60680.0,
+35-2014,Cooks (Restaurant),35,Food Preparation,80,5,31,8,25.8,24,Robotic,1429940.0,343186.0,59950.0,-283236.0,-19.8
+35-2015,Short Order Cooks,35,Food Preparation,80,5,31,8,25.8,24,Robotic,117070.0,28097.0,60620.0,32523.0,27.8
+35-2019,Cooks NEC,35,Food Preparation,80,5,31,8,25.8,24,Robotic,23150.0,5556.0,60668.0,55112.0,238.1
+35-2021,Food Preparation Workers,35,Food Preparation,80,5,31,8,25.8,24,Robotic,883400.0,212016.0,60229.0,-151787.0,-17.2
+35-3011,Bartenders,35,Food Preparation,80,5,31,8,25.8,24,Robotic,731460.0,175550.0,60306.0,-115244.0,-15.8
+35-3023,Fast Food & Counter Workers,35,Food Preparation,80,5,31,8,25.8,24,Robotic,3725410.0,894098.0,58777.0,-835321.0,-22.4
+35-3031,Waiters & Waitresses,35,Food Preparation,80,5,31,8,25.8,24,Robotic,2277130.0,546511.0,59517.0,-486994.0,-21.4
+35-3041,Food Servers (Nonrestaurant),35,Food Preparation,80,5,31,8,25.8,24,Robotic,264530.0,63487.0,60545.0,-2942.0,-1.1
+35-9011,Dishwashers,35,Food Preparation,80,5,49,8,40.2,37,Robotic,514120.0,190224.0,41418.0,-148806.0,-28.9
+35-9021,"Hosts & Hostesses (Restaurant, Lounge, Coffee Shop)",35,Food Preparation,80,5,31,8,25.8,24,Robotic,465660.0,111758.0,60442.0,-51316.0,-11.0
+35-9031,Dining Room & Cafeteria Attendants,35,Food Preparation,88,5,34,8,30.5,28,Robotic,419980.0,117594.0,50637.0,-66957.0,-15.9
+35-9099,Food Preparation & Serving Workers NEC,35,Food Preparation,80,5,31,8,25.8,24,Robotic,80430.0,19303.0,60639.0,41336.0,51.4
+37-1011,Supervisors of Janitorial/Housekeeping Workers,37,Building & Grounds,88,5,43,5,38.4,37,Robotic,173890.0,64339.0,38827.0,-25512.0,-14.7
+37-1012,Supervisors of Landscaping Workers,37,Building & Grounds,88,5,31,5,27.9,26,Robotic,120260.0,31268.0,53640.0,22373.0,18.6
+37-2011,Janitors & Cleaners (Except Maids),37,Building & Grounds,88,5,43,5,38.4,37,Robotic,2195420.0,812305.0,37662.0,-774644.0,-35.3
+37-2012,Maids & Housekeeping Cleaners,37,Building & Grounds,88,5,43,5,38.4,37,Robotic,842940.0,311888.0,38441.0,-273447.0,-32.4
+37-2019,Building Cleaning Workers NEC,37,Building & Grounds,88,5,31,5,27.9,26,Robotic,12740.0,3312.0,53700.0,50388.0,395.5
+37-3011,Landscaping & Groundskeeping Workers,37,Building & Grounds,88,5,41,5,36.7,35,Robotic,927310.0,324558.0,40900.0,-283659.0,-30.6
+37-3012,"Pesticide Handlers, Sprayers & Applicators",37,Building & Grounds,88,5,31,5,27.9,26,Robotic,22800.0,5928.0,53695.0,47767.0,209.5
+37-3013,Tree Trimmers & Pruners,37,Building & Grounds,88,5,31,5,27.9,26,Robotic,42300.0,10998.0,53684.0,42686.0,100.9
+37-3019,Grounds Maintenance Workers NEC,37,Building & Grounds,88,5,31,5,27.9,26,Robotic,9720.0,2527.0,53702.0,51175.0,526.5
+39-1013,Supervisors of Personal Service Workers,39,Personal Care & Service,55,15,13,32,13.9,9,Both,24280.0,2185.0,106655.0,104470.0,430.3
+39-2011,Animal Trainers,39,Personal Care & Service,55,9,13,32,11.2,8,Robotic,19680.0,1574.0,105119.0,103545.0,526.1
+39-2021,Nonfarm Animal Caretakers,39,Personal Care & Service,55,15,13,32,13.9,9,Both,271330.0,24420.0,106597.0,82177.0,30.3
+39-3011,Gambling Dealers,39,Personal Care & Service,55,15,13,32,13.9,9,Both,78450.0,7060.0,106643.0,99582.0,126.9
+39-3012,Gaming Service Workers NEC,39,Personal Care & Service,55,15,13,32,13.9,9,Both,5870.0,528.0,106660.0,106131.0,1808.0
+39-3031,"Ushers, Lobby Attendants & Ticket Takers",39,Personal Care & Service,63,12,16,32,14.5,10,Robotic,116760.0,11676.0,98431.0,86755.0,74.3
+39-3091,Amusement & Recreation Attendants,39,Personal Care & Service,63,12,16,32,14.5,10,Robotic,362340.0,36234.0,98365.0,62131.0,17.1
+39-3093,"Locker Room, Coatroom & Dressing Room Attendants",39,Personal Care & Service,63,12,26,32,20.8,14,Robotic,14570.0,2040.0,89899.0,87860.0,603.0
+39-4011,Embalmers,39,Personal Care & Service,55,15,13,55,13.9,6,Both,2870.0,172.0,113809.0,113637.0,3959.5
+39-4012,Crematory Operators,39,Personal Care & Service,55,15,13,32,13.9,9,Both,2440.0,220.0,106661.0,106441.0,4362.3
+39-4021,Funeral Attendants,39,Personal Care & Service,63,12,16,55,14.5,7,Robotic,30810.0,2157.0,105129.0,102973.0,334.2
+39-4031,"Morticians, Undertakers & Funeral Directors",39,Personal Care & Service,55,15,13,55,13.9,6,Both,25540.0,1532.0,113805.0,112273.0,439.6
+39-5011,Barbers,39,Personal Care & Service,55,15,2,42,7.8,5,AI,14030.0,702.0,116242.0,115541.0,823.5
+39-5012,"Hairdressers, Hairstylists & Cosmetologists",39,Personal Care & Service,55,15,2,42,7.8,5,AI,290060.0,14503.0,116202.0,101699.0,35.1
+39-5013,Shampooers,39,Personal Care & Service,55,15,13,32,13.9,9,Both,0.0,0.0,106661.0,106661.0,
+39-5091,Manicurists & Pedicurists,39,Personal Care & Service,55,15,5,32,9.5,6,AI,930.0,56.0,113810.0,113754.0,12231.6
+39-5092,Skin Care Specialists,39,Personal Care & Service,55,15,13,32,13.9,9,Both,143130.0,12882.0,106627.0,93746.0,65.5
+39-5093,Makeup Artists (Theatrical & Performance),39,Personal Care & Service,55,15,13,32,13.9,9,Both,8220.0,740.0,106659.0,105919.0,1288.6
+39-5094,Cosmetologists (Nec),39,Personal Care & Service,55,15,13,42,13.9,8,Both,68260.0,5461.0,109004.0,103543.0,151.7
+39-6011,Baggage Porters & Bellhops,39,Personal Care & Service,55,15,13,32,13.9,9,Both,30610.0,2755.0,106654.0,103899.0,339.4
+39-6012,Concierges,39,Personal Care & Service,55,15,13,32,13.9,9,Both,43440.0,3910.0,106651.0,102741.0,236.5
+39-7011,Tour Guides & Escorts,39,Personal Care & Service,55,15,13,32,13.9,9,Both,0.0,0.0,106661.0,106661.0,
+39-7012,Travel Guides,39,Personal Care & Service,55,15,13,32,13.9,9,Both,0.0,0.0,106661.0,106661.0,
+39-9011,Childcare Workers,39,Personal Care & Service,55,9,2,70,5.2,2,AI,510610.0,10212.0,119251.0,109039.0,21.4
+39-9021,Exercise Trainers & Group Fitness Instructors,39,Personal Care & Service,55,15,13,32,13.9,9,Both,0.0,0.0,106661.0,106661.0,
+39-9031,Recreation Workers,39,Personal Care & Service,55,15,13,32,13.9,9,Both,292790.0,26351.0,106592.0,80241.0,27.4
+39-9032,Residential Advisors,39,Personal Care & Service,55,15,13,32,13.9,9,Both,305890.0,27530.0,106589.0,79059.0,25.8
+39-9041,Personal Care & Service Workers NEC,39,Personal Care & Service,55,15,13,32,13.9,9,Both,81950.0,7376.0,106642.0,99266.0,121.1
+41-1011,First-Line Supervisors of Retail Sales Workers,41,Sales,18,52,13,15,45.0,38,AI,1102090.0,418794.0,63697.0,-355097.0,-32.2
+41-1012,First-Line Supervisors of Non-Retail Sales Workers,41,Sales,18,52,13,15,45.0,38,AI,212180.0,80628.0,64145.0,-16484.0,-7.8
+41-2011,Cashiers,41,Sales,18,52,33,15,48.6,41,AI,3125870.0,1281607.0,56649.0,-1224958.0,-39.2
+41-2021,Counter & Rental Clerks,41,Sales,18,52,13,15,45.0,38,AI,385690.0,146562.0,64058.0,-82505.0,-21.4
+41-2022,Parts Salespersons,41,Sales,18,52,13,15,45.0,38,AI,263570.0,100157.0,64119.0,-36038.0,-13.7
+41-2031,Retail Salespersons,41,Sales,18,52,13,15,45.0,38,AI,3769800.0,1432524.0,62356.0,-1370168.0,-36.3
+41-3011,Advertising Sales Agents,41,Sales,18,52,13,15,45.0,38,AI,89720.0,34094.0,64206.0,30113.0,33.6
+41-3021,Insurance Sales Agents,41,Sales,18,52,13,22,45.0,35,AI,462480.0,161868.0,70384.0,-91484.0,-19.8
+41-3031,"Securities, Commodities & Financial Services Agents",41,Sales,18,52,13,45,45.0,25,AI,461210.0,115302.0,93797.0,-21505.0,-4.7
+41-3041,Travel Agents,41,Sales,18,60,13,15,51.5,44,AI,57060.0,25106.0,53296.0,28190.0,49.4
+41-3091,Sales Representatives (Non-Technical),41,Sales,18,52,13,15,45.0,38,AI,1154250.0,438615.0,63671.0,-374944.0,-32.5
+41-3099,Sales Representatives NEC,41,Sales,18,52,13,15,45.0,38,AI,0.0,0.0,64251.0,64251.0,
+41-4011,"Sales Representatives (Wholesale/Mfg, Technical)",41,Sales,18,52,13,15,45.0,38,AI,291050.0,110599.0,64105.0,-46494.0,-16.0
+41-4012,"Sales Representatives (Wholesale/Mfg, Non-Technical)",41,Sales,18,52,13,15,45.0,38,AI,1241140.0,471633.0,63627.0,-408006.0,-32.9
+41-9011,Demonstrators & Product Promoters,41,Sales,18,52,13,15,45.0,38,AI,37940.0,14417.0,64232.0,49815.0,131.3
+41-9012,Models,41,Sales,18,52,13,15,45.0,38,AI,1520.0,578.0,64251.0,63673.0,4189.0
+41-9021,Real Estate Brokers,41,Sales,18,52,13,25,45.0,34,AI,34060.0,11580.0,72792.0,61212.0,179.7
+41-9022,Real Estate Sales Agents,41,Sales,18,52,13,25,45.0,34,AI,181890.0,61843.0,72717.0,10874.0,6.0
+41-9031,Sales Engineers,41,Sales,18,52,13,15,45.0,38,AI,52720.0,20034.0,64225.0,44191.0,83.8
+41-9041,Telemarketers,41,Sales,18,66,13,15,56.5,48,AI,65260.0,31325.0,45933.0,14608.0,22.4
+41-9091,Door-to-Door Sales Workers & Canvassers,41,Sales,18,52,13,15,45.0,38,AI,2820.0,1072.0,64250.0,63178.0,2240.4
+41-9099,Sales Workers NEC,41,Sales,18,52,13,15,45.0,38,AI,91240.0,34671.0,64206.0,29534.0,32.4
+43-1011,First-Line Supervisors of Office Workers,43,Office & Admin Support,7,72,4,5,67.2,64,AI,1487820.0,952205.0,19758.0,-932447.0,-62.7
+43-2011,Switchboard Operators,43,Office & Admin Support,7,72,4,5,67.2,64,AI,35510.0,22726.0,20311.0,-2415.0,-6.8
+43-2021,Telephone Operators,43,Office & Admin Support,7,72,4,5,67.2,64,AI,2730.0,1747.0,20324.0,18577.0,680.5
+43-3011,Bill & Account Collectors,43,Office & Admin Support,7,72,4,5,67.2,64,AI,166120.0,106317.0,20262.0,-86055.0,-51.8
+43-3021,Billing & Posting Clerks,43,Office & Admin Support,7,72,4,5,67.2,64,AI,415710.0,266054.0,20166.0,-245888.0,-59.1
+43-3031,"Bookkeeping, Accounting & Auditing Clerks",43,Office & Admin Support,7,84,4,5,78.4,74,AI,1436730.0,1063180.0,9744.0,-1053437.0,-73.3
+43-3041,Gaming Cage Workers,43,Office & Admin Support,7,72,4,5,67.2,64,AI,12690.0,8122.0,20320.0,12198.0,96.1
+43-3051,Payroll & Timekeeping Clerks,43,Office & Admin Support,7,72,4,5,67.2,64,AI,154700.0,99008.0,20266.0,-78742.0,-50.9
+43-3061,Procurement Clerks,43,Office & Admin Support,7,72,4,5,67.2,64,AI,59480.0,38067.0,20302.0,-17765.0,-29.9
+43-3071,Tellers,43,Office & Admin Support,7,72,4,5,67.2,64,AI,337040.0,215706.0,20196.0,-195509.0,-58.0
+43-4011,Brokerage Clerks,43,Office & Admin Support,7,72,4,5,67.2,64,AI,39320.0,25165.0,20310.0,-4855.0,-12.3
+43-4021,Correspondence Clerks,43,Office & Admin Support,7,72,4,5,67.2,64,AI,4260.0,2726.0,20323.0,17597.0,413.1
+43-4031,"Court, Municipal & License Clerks",43,Office & Admin Support,7,72,4,5,67.2,64,AI,161510.0,103366.0,20263.0,-83103.0,-51.5
+43-4041,"Credit Authorizers, Checkers & Clerks",43,Office & Admin Support,7,72,4,5,67.2,64,AI,10770.0,6893.0,20321.0,13428.0,124.7
+43-4051,Customer Service Representatives,43,Office & Admin Support,7,72,4,5,67.2,64,AI,2701250.0,1728800.0,19296.0,-1709504.0,-63.3
+43-4061,Eligibility Interviewers (Government),43,Office & Admin Support,7,72,4,5,67.2,64,AI,156620.0,100237.0,20265.0,-79972.0,-51.1
+43-4071,File Clerks,43,Office & Admin Support,7,72,4,5,67.2,64,AI,77320.0,49485.0,20295.0,-29189.0,-37.8
+43-4081,"Hotel, Motel & Resort Desk Clerks",43,Office & Admin Support,7,72,4,5,67.2,64,AI,258120.0,165197.0,20227.0,-144970.0,-56.2
+43-4111,Interviewers (Except Eligibility & Loan),43,Office & Admin Support,7,72,4,5,67.2,64,AI,153690.0,98362.0,20266.0,-78095.0,-50.8
+43-4121,Library Assistants & Bookmobile Drivers,43,Office & Admin Support,12,72,4,5,63.8,61,AI,79510.0,48501.0,24629.0,-23872.0,-30.0
+43-4131,Loan Interviewers & Clerks,43,Office & Admin Support,7,72,4,5,67.2,64,AI,170500.0,109120.0,20260.0,-88860.0,-52.1
+43-4141,New Accounts Clerks,43,Office & Admin Support,7,72,4,5,67.2,64,AI,37360.0,23910.0,20311.0,-3600.0,-9.6
+43-4151,Order Clerks,43,Office & Admin Support,7,72,4,5,67.2,64,AI,81460.0,52134.0,20294.0,-31841.0,-39.1
+43-4161,Human Resources Assistants,43,Office & Admin Support,12,72,4,5,63.8,61,AI,92050.0,56150.0,24624.0,-31526.0,-34.2
+43-4171,Receptionists & Information Clerks,43,Office & Admin Support,7,72,4,5,67.2,64,AI,956250.0,612000.0,19961.0,-592039.0,-61.9
+43-4181,Reservation & Transportation Ticket Agents,43,Office & Admin Support,7,62,4,5,57.9,55,AI,124720.0,68596.0,32419.0,-36177.0,-29.0
+43-4199,Information & Record Clerks NEC,43,Office & Admin Support,7,72,4,5,67.2,64,AI,133040.0,85146.0,20274.0,-64871.0,-48.8
+43-5011,Cargo & Freight Agents,43,Office & Admin Support,7,72,4,5,67.2,64,AI,94320.0,60365.0,20289.0,-40076.0,-42.5
+43-5021,Couriers & Messengers,43,Office & Admin Support,7,72,4,5,67.2,64,AI,73510.0,47046.0,20297.0,-26750.0,-36.4
+43-5031,"Police, Fire & Ambulance Dispatchers",43,Office & Admin Support,7,78,4,62,72.8,28,AI,99820.0,27950.0,79530.0,51580.0,51.7
+43-5032,"Dispatchers (Except Police, Fire & Ambulance)",43,Office & Admin Support,7,78,4,62,72.8,28,AI,194910.0,54575.0,79462.0,24887.0,12.8
+43-5041,Meter Readers (Utilities),43,Office & Admin Support,7,72,4,5,67.2,64,AI,19400.0,12416.0,20317.0,7901.0,40.7
+43-5051,Postal Service Clerks,43,Office & Admin Support,7,72,4,5,67.2,64,AI,77640.0,49690.0,20295.0,-29394.0,-37.9
+43-5052,Mail Carriers (Postal Service),43,Office & Admin Support,7,72,4,5,67.2,64,AI,332190.0,212602.0,20198.0,-192403.0,-57.9
+43-5053,"Mail Sorters, Processors & Processing Machine Operators",43,Office & Admin Support,7,72,31,5,69.1,66,AI,110760.0,73102.0,18090.0,-55011.0,-49.7
+43-5061,"Production, Planning & Expediting Clerks",43,Office & Admin Support,7,72,4,5,67.2,64,AI,379210.0,242694.0,20180.0,-222514.0,-58.7
+43-5071,"Shipping, Receiving & Inventory Clerks",43,Office & Admin Support,7,72,4,5,67.2,64,AI,847970.0,542701.0,20002.0,-522699.0,-61.6
+43-5111,"Weighers, Measurers, Checkers & Samplers",43,Office & Admin Support,7,72,4,5,67.2,64,AI,49420.0,31629.0,20306.0,-11323.0,-22.9
+43-6011,Executive Secretaries & Executive Administrative Assistants,43,Office & Admin Support,12,72,4,5,63.8,61,AI,470700.0,287127.0,24474.0,-262653.0,-55.8
+43-6012,Legal Secretaries & Administrative Assistants,43,Office & Admin Support,12,72,4,5,63.8,61,AI,154360.0,94160.0,24600.0,-69560.0,-45.1
+43-6013,Medical Secretaries & Administrative Assistants,43,Office & Admin Support,12,72,4,5,63.8,61,AI,825300.0,503433.0,24333.0,-479100.0,-58.1
+43-6014,Secretaries & Administrative Assistants NEC,43,Office & Admin Support,12,72,4,5,63.8,61,AI,1727360.0,1053690.0,23974.0,-1029716.0,-59.6
+43-7011,Communications Equipment Operators NEC,43,Office & Admin Support,7,72,4,5,67.2,64,AI,0.0,0.0,20325.0,20325.0,
+43-8011,Data Entry Keyers,43,Office & Admin Support,7,90,4,5,84.0,80,AI,0.0,0.0,5833.0,5833.0,
+43-9011,Computer Operators,43,Office & Admin Support,7,72,4,5,67.2,64,AI,0.0,0.0,20325.0,20325.0,
+43-9021,Data Entry Keyers (NEC),43,Office & Admin Support,7,90,4,5,84.0,80,AI,135940.0,108752.0,5808.0,-102944.0,-75.7
+43-9022,Word Processors & Typists,43,Office & Admin Support,7,72,4,5,67.2,64,AI,37620.0,24077.0,20311.0,-3766.0,-10.0
+43-9031,Desktop Publishers,43,Office & Admin Support,7,72,4,5,67.2,64,AI,3590.0,2298.0,20324.0,18026.0,502.1
+43-9041,Insurance Claims & Policy Processing Clerks,43,Office & Admin Support,7,72,4,22,67.2,52,AI,229610.0,119397.0,36007.0,-83391.0,-36.3
+43-9051,Mail Clerks & Mail Machine Operators (Except Postal),43,Office & Admin Support,7,72,16,5,68.1,65,AI,62120.0,40378.0,19189.0,-21189.0,-34.1
+43-9061,Office Clerks (General),43,Office & Admin Support,7,72,4,5,67.2,64,AI,2504870.0,1603117.0,19370.0,-1583746.0,-63.2
+43-9071,Office Machine Operators (Except Computer),43,Office & Admin Support,7,72,16,5,68.1,65,AI,23380.0,15197.0,19203.0,4006.0,17.1
+43-9081,Proofreaders & Copy Markers,43,Office & Admin Support,7,86,4,5,80.3,76,AI,4420.0,3359.0,8552.0,5192.0,117.5
+43-9111,Statistical Assistants,43,Office & Admin Support,12,72,4,5,63.8,61,AI,5820.0,3550.0,24659.0,21108.0,362.7
+43-9199,Office & Administrative Support Workers NEC,43,Office & Admin Support,7,72,4,5,67.2,64,AI,178360.0,114150.0,20257.0,-93893.0,-52.6
+45-1011,First-Line Supervisors of Farming Workers,45,Farming/Fishing/Forestry,88,5,43,5,38.4,37,Robotic,28830.0,10667.0,38911.0,28244.0,98.0
+45-2011,Agricultural Inspectors,45,Farming/Fishing/Forestry,88,5,43,5,38.4,37,Robotic,12160.0,4499.0,38921.0,34421.0,283.1
+45-2021,Animal Breeders,45,Farming/Fishing/Forestry,88,5,33,5,29.6,28,Robotic,520.0,146.0,50844.0,50698.0,9749.7
+45-2041,Graders & Sorters (Agricultural),45,Farming/Fishing/Forestry,88,5,58,5,51.6,49,Robotic,25260.0,12377.0,25498.0,13120.0,51.9
+45-2091,Agricultural Equipment Operators,45,Farming/Fishing/Forestry,88,5,43,5,38.4,37,Robotic,30750.0,11378.0,38910.0,27532.0,89.5
+45-2092,Farmworkers & Laborers (Crop),45,Farming/Fishing/Forestry,95,5,45,5,43.0,41,Robotic,260510.0,106809.0,31902.0,-74907.0,-28.8
+45-2093,"Farmworkers, Farm & Ranch Animals",45,Farming/Fishing/Forestry,88,5,33,5,29.6,28,Robotic,34000.0,9520.0,50825.0,41305.0,121.5
+45-2099,Agricultural Workers NEC,45,Farming/Fishing/Forestry,88,5,43,5,38.4,37,Robotic,4390.0,1624.0,38925.0,37301.0,849.7
+45-3011,Fishing & Hunting Workers,45,Farming/Fishing/Forestry,88,5,43,5,38.4,37,Robotic,0.0,0.0,38928.0,38928.0,
+45-4011,Forest & Conservation Workers,45,Farming/Fishing/Forestry,88,5,33,5,29.6,28,Robotic,4670.0,1308.0,50842.0,49534.0,1060.7
+45-4021,Fallers (Logging),45,Farming/Fishing/Forestry,88,5,33,5,29.6,28,Robotic,2950.0,826.0,50843.0,50017.0,1695.5
+45-4022,Logging Equipment Operators,45,Farming/Fishing/Forestry,88,5,33,5,29.6,28,Robotic,21650.0,6062.0,50832.0,44770.0,206.8
+45-4023,Log Graders & Scalers,45,Farming/Fishing/Forestry,88,5,48,5,42.8,41,Robotic,3080.0,1263.0,34140.0,32877.0,1067.4
+45-4029,Logging Workers NEC,45,Farming/Fishing/Forestry,88,5,33,5,29.6,28,Robotic,1790.0,501.0,50843.0,50342.0,2812.4
+47-1011,First-Line Supervisors of Construction Workers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,791020.0,158204.0,65192.0,-93012.0,-11.8
+47-2011,Boilermakers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,9440.0,1888.0,65569.0,63681.0,674.6
+47-2021,Brickmasons & Blockmasons,47,Construction & Extraction,83,5,18,8,15.8,15,Robotic,52670.0,7900.0,74005.0,66105.0,125.5
+47-2022,Stonemasons,47,Construction & Extraction,83,5,18,8,15.8,15,Robotic,8010.0,1202.0,74023.0,72822.0,909.1
+47-2031,Carpenters,47,Construction & Extraction,91,5,15,8,14.1,13,Robotic,688310.0,89480.0,72008.0,-17472.0,-2.5
+47-2041,Carpet Installers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,14070.0,2814.0,65567.0,62753.0,446.0
+47-2042,"Floor Layers (Except Carpet, Wood & Hard Tiles)",47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,24240.0,4848.0,65562.0,60714.0,250.5
+47-2043,Floor Sanders & Finishers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,1480.0,296.0,65573.0,65277.0,4410.6
+47-2044,Tile & Stone Setters,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,37580.0,7516.0,65556.0,58040.0,154.4
+47-2051,Cement Masons & Concrete Finishers,47,Construction & Extraction,83,5,18,8,15.8,15,Robotic,201610.0,30242.0,73944.0,43703.0,21.7
+47-2052,Terrazzo Workers & Finishers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,0.0,0.0,65574.0,65574.0,
+47-2053,"Paving, Surfacing & Tamping Equipment Operators",47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,490.0,98.0,65574.0,65476.0,13362.4
+47-2061,Construction Laborers,47,Construction & Extraction,95,5,29,8,27.8,26,Robotic,1048970.0,272732.0,49822.0,-222911.0,-21.3
+47-2071,Paving Equipment Operators,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,44410.0,8882.0,65552.0,56670.0,127.6
+47-2072,Pile Driver Operators,47,Construction & Extraction,93,5,28,8,26.4,24,Robotic,2480.0,595.0,54174.0,53579.0,2160.4
+47-2073,Operating Engineers & Other Construction Equipment Operators,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,460250.0,92050.0,65352.0,-26698.0,-5.8
+47-2081,Drywall & Ceiling Tile Installers,47,Construction & Extraction,83,5,18,8,15.8,15,Robotic,80990.0,12148.0,73994.0,61845.0,76.4
+47-2082,Tapers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,10910.0,2182.0,65569.0,63387.0,581.0
+47-2111,Electricians,47,Construction & Extraction,83,5,7,18,6.7,5,Robotic,728140.0,36407.0,92345.0,55938.0,7.7
+47-2121,Glaziers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,52680.0,10536.0,65548.0,55012.0,104.4
+47-2130,"Insulation Workers (Floor, Ceiling & Wall)",47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,0.0,0.0,65574.0,65574.0,
+47-2131,Insulation Workers (Mechanical),47,Construction & Extraction,91,5,28,8,25.9,24,Robotic,36620.0,8789.0,55138.0,46349.0,126.6
+47-2141,Painters (Construction & Maintenance),47,Construction & Extraction,83,5,35,8,29.9,28,Robotic,221580.0,62042.0,52994.0,-9049.0,-4.1
+47-2142,Paperhangers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,700.0,140.0,65574.0,65434.0,9347.6
+47-2151,Pipelayers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,32570.0,6514.0,65558.0,59044.0,181.3
+47-2152,"Plumbers, Pipefitters & Steamfitters",47,Construction & Extraction,91,5,10,18,9.6,8,Robotic,447470.0,35798.0,80706.0,44908.0,10.0
+47-2161,Plasterers & Stucco Masons,47,Construction & Extraction,83,5,18,8,15.8,15,Robotic,19510.0,2926.0,74019.0,71092.0,364.4
+47-2171,Reinforcing Iron & Rebar Workers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,12320.0,2464.0,65568.0,63104.0,512.2
+47-2181,Roofers,47,Construction & Extraction,83,5,18,8,15.8,15,Robotic,133480.0,20022.0,73972.0,53950.0,40.4
+47-2211,Sheet Metal Workers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,115120.0,23024.0,65518.0,42494.0,36.9
+47-2221,Structural Iron & Steel Workers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,64180.0,12836.0,65543.0,52707.0,82.1
+47-2231,Solar Photovoltaic Installers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,26500.0,5300.0,65561.0,60261.0,227.4
+47-2241,Glaziers (Nec),47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,0.0,0.0,65574.0,65574.0,
+47-3011,"Helpers (Brickmasons, Blockmasons, Stonemasons)",47,Construction & Extraction,83,5,18,8,15.8,15,Robotic,14560.0,2184.0,74021.0,71837.0,493.4
+47-3012,Helpers (Carpenters),47,Construction & Extraction,91,5,15,8,14.1,13,Robotic,21110.0,2744.0,72273.0,69528.0,329.4
+47-3013,Helpers (Electricians),47,Construction & Extraction,83,5,7,18,6.7,5,Robotic,65810.0,3290.0,92458.0,89168.0,135.5
+47-3014,"Helpers (Painters, Paperhangers, Plasterers)",47,Construction & Extraction,83,5,35,8,29.9,28,Robotic,6050.0,1694.0,53112.0,51418.0,849.9
+47-3015,"Helpers (Pipelayers, Plumbers, Pipefitters)",47,Construction & Extraction,91,5,10,18,9.6,8,Robotic,42420.0,3394.0,80816.0,77423.0,182.5
+47-3016,Helpers (Roofers),47,Construction & Extraction,83,5,18,8,15.8,15,Robotic,4100.0,615.0,74025.0,73410.0,1790.5
+47-3019,Helpers (Construction Trades) NEC,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,25140.0,5028.0,65562.0,60534.0,240.8
+47-4011,Construction & Building Inspectors,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,134180.0,26836.0,65509.0,38673.0,28.8
+47-4021,Elevator & Escalator Installers & Repairers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,20840.0,4168.0,65564.0,61396.0,294.6
+47-4031,Fence Erectors,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,19120.0,3824.0,65565.0,61741.0,322.9
+47-4041,Hazardous Materials Removal Workers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,48030.0,9606.0,65551.0,55945.0,116.5
+47-4051,Highway Maintenance Workers,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,152840.0,30568.0,65500.0,34932.0,22.9
+47-4061,Rail-Track Laying & Maintenance Equipment Operators,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,14340.0,2868.0,65567.0,62699.0,437.2
+47-4071,Septic Tank Servicers & Sewer Pipe Cleaners,47,Construction & Extraction,83,5,37,8,31.6,29,Robotic,28280.0,8201.0,51634.0,43433.0,153.6
+47-4099,Construction & Related Workers NEC,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,0.0,0.0,65574.0,65574.0,
+47-5011,Derrick Operators (Oil & Gas),47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,10310.0,2062.0,65569.0,63507.0,616.0
+47-5012,Rotary Drill Operators (Oil & Gas),47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,12470.0,2494.0,65568.0,63074.0,505.8
+47-5013,Service Unit Operators (Oil & Gas),47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,41180.0,8236.0,65554.0,57318.0,139.2
+47-5021,Earth Drillers (Except Oil & Gas),47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,0.0,0.0,65574.0,65574.0,
+47-5031,"Explosives Workers, Ordnance Handling",47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,0.0,0.0,65574.0,65574.0,
+47-5041,Continuous Mining Machine Operators,47,Construction & Extraction,83,5,50,8,42.4,39,Robotic,12610.0,4918.0,38118.0,33200.0,263.3
+47-5042,Mine Cutting & Channeling Machine Operators,47,Construction & Extraction,83,5,37,8,31.6,29,Robotic,0.0,0.0,51650.0,51650.0,
+47-5043,Shuttle Car Operators,47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,1450.0,290.0,65573.0,65283.0,4502.3
+47-5049,Mining Machine Operators NEC,47,Construction & Extraction,83,5,50,8,42.4,39,Robotic,1910.0,745.0,38124.0,37379.0,1957.0
+47-5051,Rock Splitters (Quarry),47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,2250.0,450.0,65573.0,65123.0,2894.3
+47-5061,Roof Bolters (Mining),47,Construction & Extraction,83,5,38,8,32.4,30,Robotic,0.0,0.0,50205.0,50205.0,
+47-5071,Roustabouts (Oil & Gas),47,Construction & Extraction,83,5,25,8,21.6,20,Robotic,43280.0,8656.0,65553.0,56897.0,131.5
+47-5081,Helpers (Extraction Workers),47,Construction & Extraction,83,5,38,8,32.4,30,Robotic,5890.0,1767.0,50202.0,48435.0,822.3
+47-5099,Extraction Workers NEC,47,Construction & Extraction,83,5,38,8,32.4,30,Robotic,5110.0,1533.0,50202.0,48669.0,952.4
+49-1011,First-Line Supervisors of Mechanics,49,Install/Maint/Repair,78,19,62,10,52.5,47,Robotic,591250.0,277888.0,30519.0,-247368.0,-41.8
+49-2011,"Computer, Automated Teller & Office Machine Repairers",49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,72020.0,30969.0,38667.0,7698.0,10.7
+49-2021,"Radio, Cellular & Tower Equipment Installers",49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,9780.0,4205.0,38696.0,34491.0,352.7
+49-2022,Telecommunications Equipment Installers & Repairers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,149440.0,64259.0,38630.0,-25629.0,-17.2
+49-2091,Avionics Technicians,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,20290.0,8725.0,38691.0,29967.0,147.7
+49-2092,"Electric Motor, Power Tool & Related Repairers",49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,16180.0,6957.0,38693.0,31736.0,196.1
+49-2093,Electrical & Electronics Installers & Repairers (Transportation),49,Install/Maint/Repair,70,12,59,10,44.9,40,Robotic,6080.0,2432.0,41678.0,39246.0,645.5
+49-2094,Electrical & Electronics Repairers (Commercial/Industrial),49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,56590.0,24334.0,38674.0,14340.0,25.3
+49-2095,Electrical & Electronics Repairers (Powerhouse),49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,22890.0,9843.0,38690.0,28847.0,126.0
+49-2096,Electronic Equipment Installers & Repairers (Motor Vehicles),49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,9160.0,3939.0,38697.0,34758.0,379.5
+49-2097,Electronic Home Entertainment Equipment Installers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,20330.0,8742.0,38691.0,29950.0,147.3
+49-2098,Security & Fire Alarm Systems Installers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,79640.0,34245.0,38663.0,4418.0,5.5
+49-3011,Aircraft Mechanics & Service Technicians,49,Install/Maint/Repair,78,19,62,10,52.5,47,Robotic,134220.0,63083.0,30738.0,-32345.0,-24.1
+49-3021,Automotive Body & Related Repairers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,152770.0,65691.0,38628.0,-27063.0,-17.7
+49-3022,Automotive Glass Installers & Repairers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,17680.0,7602.0,38693.0,31090.0,175.9
+49-3023,Automotive Service Technicians & Mechanics,49,Install/Maint/Repair,78,19,62,10,52.5,47,Robotic,680490.0,319830.0,30477.0,-289354.0,-42.5
+49-3031,Bus & Truck Mechanics & Diesel Engine Specialists,49,Install/Maint/Repair,78,19,62,10,52.5,47,Robotic,283620.0,133301.0,30667.0,-102635.0,-36.2
+49-3041,Farm Equipment Mechanics & Service Technicians,49,Install/Maint/Repair,78,19,62,10,52.5,47,Robotic,36560.0,17183.0,30785.0,13602.0,37.2
+49-3042,Mobile Heavy Equipment Mechanics,49,Install/Maint/Repair,78,19,62,10,52.5,47,Robotic,177050.0,83214.0,30718.0,-52496.0,-29.7
+49-3043,Rail Car Repairers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,16770.0,7211.0,38693.0,31482.0,187.7
+49-3051,Motorboat Mechanics & Service Technicians,49,Install/Maint/Repair,78,19,62,10,52.5,47,Robotic,24000.0,11280.0,30791.0,19511.0,81.3
+49-3052,Motorcycle Mechanics,49,Install/Maint/Repair,78,19,62,10,52.5,47,Robotic,13340.0,6270.0,30796.0,24526.0,183.9
+49-3053,Outdoor Power Equipment & Small Engine Mechanics,49,Install/Maint/Repair,78,19,62,10,52.5,47,Robotic,33840.0,15905.0,30786.0,14882.0,44.0
+49-3091,Bicycle Repairers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,11610.0,4992.0,38696.0,33703.0,290.3
+49-3092,Home Appliance Repairers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,17860.0,7680.0,38693.0,31013.0,173.6
+49-3093,Mechanical Door Repairers,49,Install/Maint/Repair,78,19,62,10,52.5,47,Robotic,104380.0,49059.0,30753.0,-18306.0,-17.5
+49-3094,Locksmiths & Safe Repairers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,0.0,0.0,38701.0,38701.0,
+49-3099,Vehicle & Mobile Equipment Mechanics NEC,49,Install/Maint/Repair,78,19,62,10,52.5,47,Robotic,0.0,0.0,30803.0,30803.0,
+49-9010,Control & Valve Installers & Repairers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,0.0,0.0,38701.0,38701.0,
+49-9011,Mechanical Insulation Workers,49,Install/Maint/Repair,78,19,62,10,52.5,47,Robotic,25250.0,11868.0,30791.0,18923.0,74.9
+49-9012,"Coin, Vending & Amusement Machine Servicers",49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,45650.0,19630.0,38679.0,19050.0,41.7
+49-9021,"Heating, Air Conditioning & Refrigeration Mechanics",49,Install/Maint/Repair,78,19,62,10,52.5,47,Robotic,389310.0,182976.0,30616.0,-152360.0,-39.1
+49-9031,Home Appliance Repairers (Nec),49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,29330.0,12612.0,38687.0,26075.0,88.9
+49-9041,Industrial Machinery Mechanics,49,Install/Maint/Repair,78,19,62,10,52.5,47,Robotic,419280.0,197062.0,30602.0,-166460.0,-39.7
+49-9043,Maintenance Workers (Machinery),49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,55780.0,23985.0,38674.0,14689.0,26.3
+49-9044,Millwrights,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,39740.0,17088.0,38682.0,21594.0,54.3
+49-9045,Refractory Materials Repairers,49,Install/Maint/Repair,70,22,59,55,47.9,22,Robotic,410.0,90.0,72471.0,72380.0,17653.8
+49-9051,Electrical Power-Line Installers & Repairers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,122290.0,52585.0,38643.0,-13942.0,-11.4
+49-9052,Telecommunications Line Installers & Repairers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,98460.0,42338.0,38654.0,-3684.0,-3.7
+49-9061,Camera & Photographic Equipment Repairers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,830.0,357.0,38701.0,38344.0,4619.7
+49-9062,Medical Equipment Repairers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,59810.0,25718.0,38673.0,12954.0,21.7
+49-9063,Musical Instrument Repairers & Tuners,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,5340.0,2296.0,38699.0,36402.0,681.7
+49-9064,Watch & Clock Repairers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,410.0,176.0,38701.0,38525.0,9396.3
+49-9069,Precision Instrument & Equipment Repairers NEC,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,9360.0,4025.0,38697.0,34672.0,370.4
+49-9071,Maintenance & Repair Workers (General),49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,1522880.0,654838.0,37973.0,-616865.0,-40.5
+49-9091,"Coin, Vending & Amusement Machine Servicers (Nec)",49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,27710.0,11915.0,38688.0,26773.0,96.6
+49-9094,Manufactured Building & Mobile Home Installers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,15100.0,6493.0,38694.0,32201.0,213.3
+49-9095,Riggers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,1180.0,507.0,38701.0,38193.0,3236.7
+49-9096,Signal & Track Switch Repairers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,23600.0,10148.0,38690.0,28542.0,120.9
+49-9097,Tire Repairers & Changers,49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,6840.0,2941.0,38698.0,35757.0,522.8
+49-9098,"Helpers (Installation, Maintenance & Repair Workers)",49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,99000.0,42570.0,38654.0,-3916.0,-4.0
+49-9099,"Installation, Maintenance & Repair Workers NEC",49,Install/Maint/Repair,70,22,59,10,47.9,43,Robotic,179310.0,77103.0,38615.0,-38488.0,-21.5
+51-1011,First-Line Supervisors of Production Workers,51,Production,85,5,64,5,55.1,52,Robotic,679850.0,353522.0,22891.0,-330631.0,-48.6
+51-2011,"Aircraft Structure, Surfaces, Rigging & Systems Assemblers",51,Production,85,5,79,5,67.9,65,Robotic,30860.0,20059.0,12327.0,-7732.0,-25.1
+51-2021,"Coil Winders, Tapers & Finishers",51,Production,85,5,64,5,55.1,52,Robotic,11810.0,6141.0,23197.0,17056.0,144.4
+51-2022,Electrical & Electronic Equipment Assemblers,51,Production,85,5,83,5,71.3,68,Robotic,0.0,0.0,10312.0,10312.0,
+51-2023,Electromechanical Equipment Assemblers,51,Production,85,5,79,5,67.9,65,Robotic,0.0,0.0,12337.0,12337.0,
+51-2031,Engine & Other Machine Assemblers,51,Production,85,5,79,5,67.9,65,Robotic,37430.0,24330.0,12325.0,-12004.0,-32.1
+51-2041,Structural Metal Fabricators & Fitters,51,Production,85,5,38,5,33.0,31,Robotic,49620.0,15382.0,47918.0,32536.0,65.6
+51-2051,Fiberglass Laminators & Fabricators,51,Production,85,5,38,5,33.0,31,Robotic,18240.0,5654.0,47936.0,42282.0,231.8
+51-2061,Timing Device Assemblers & Adjusters,51,Production,85,5,79,5,67.9,65,Robotic,0.0,0.0,12337.0,12337.0,
+51-2090,Assemblers & Fabricators NEC,51,Production,85,5,53,5,45.8,44,Robotic,1459190.0,642044.0,30811.0,-611233.0,-41.9
+51-2092,Team Assemblers,51,Production,85,5,79,5,67.9,65,Robotic,0.0,0.0,12337.0,12337.0,
+51-3011,Bakers,51,Production,85,5,64,5,55.1,52,Robotic,229860.0,119527.0,23097.0,-96430.0,-42.0
+51-3021,Butchers & Meat Cutters,51,Production,85,5,44,5,38.1,36,Robotic,140640.0,50630.0,41170.0,-9460.0,-6.7
+51-3022,"Meat, Poultry & Fish Cutters & Trimmers",51,Production,85,5,44,5,38.1,36,Robotic,135760.0,48874.0,41173.0,-7701.0,-5.7
+51-3023,Slaughterers & Meat Packers,51,Production,85,5,44,5,38.1,36,Robotic,66950.0,24102.0,41212.0,17110.0,25.6
+51-3091,"Food & Tobacco Roasting, Baking & Drying Machine Operators",51,Production,85,5,56,5,48.4,46,Robotic,17500.0,8050.0,29357.0,21307.0,121.8
+51-3092,Food Batchmakers,51,Production,85,5,44,5,38.1,36,Robotic,169130.0,60887.0,41154.0,-19733.0,-11.7
+51-3093,Food Cooking Machine Operators & Tenders,51,Production,85,5,56,5,48.4,46,Robotic,26140.0,12024.0,29353.0,17328.0,66.3
+51-3099,Food Processing Workers NEC,51,Production,85,5,44,5,38.1,36,Robotic,56950.0,20502.0,41217.0,20715.0,36.4
+51-4011,Computer Numerically Controlled Tool Operators,51,Production,85,5,64,5,55.1,52,Robotic,0.0,0.0,23203.0,23203.0,
+51-4012,CNC Tool Programmers,51,Production,80,10,74,5,61.2,58,Robotic,0.0,0.0,18699.0,18699.0,
+51-4021,Extruding & Drawing Machine Operators,51,Production,85,5,76,5,65.3,62,Robotic,65810.0,40802.0,14520.0,-26283.0,-39.9
+51-4022,Forging Machine Setters & Operators,51,Production,85,5,64,5,55.1,52,Robotic,7560.0,3931.0,23199.0,19268.0,254.9
+51-4023,Rolling Machine Setters & Operators,51,Production,85,5,64,5,55.1,52,Robotic,22160.0,11523.0,23193.0,11669.0,52.7
+51-4031,"Cutting, Punching & Press Machine Operators",51,Production,85,5,88,5,75.5,72,Robotic,172760.0,124387.0,7858.0,-116529.0,-67.5
+51-4032,Drilling & Boring Machine Tool Setters & Operators,51,Production,85,5,64,5,55.1,52,Robotic,4290.0,2231.0,23201.0,20970.0,488.8
+51-4033,"Grinding, Lapping, Polishing & Buffing Machine Operators",51,Production,85,5,76,5,65.3,62,Robotic,69450.0,43059.0,14518.0,-28541.0,-41.1
+51-4034,Lathe & Turning Machine Tool Setters & Operators,51,Production,85,5,64,5,55.1,52,Robotic,18830.0,9792.0,23194.0,13403.0,71.2
+51-4035,Milling & Planing Machine Setters & Operators,51,Production,85,5,64,5,55.1,52,Robotic,13140.0,6833.0,23197.0,16364.0,124.5
+51-4041,Machinists,51,Production,85,5,64,5,55.1,52,Robotic,297150.0,154518.0,23067.0,-131451.0,-44.2
+51-4051,Metal-Refining Furnace Operators & Tenders,51,Production,85,5,64,5,55.1,52,Robotic,20050.0,10426.0,23194.0,12768.0,63.7
+51-4052,Pourers & Casters (Metal),51,Production,85,5,64,5,55.1,52,Robotic,5400.0,2808.0,23200.0,20392.0,377.6
+51-4061,Model Makers (Metal & Plastic),51,Production,85,5,62,5,53.5,51,Robotic,2780.0,1418.0,24178.0,22761.0,818.7
+51-4062,Patternmakers (Metal & Plastic),51,Production,85,5,62,5,53.5,51,Robotic,1290.0,658.0,24179.0,23521.0,1823.3
+51-4071,Foundry Mold & Coremakers,51,Production,85,5,64,5,55.1,52,Robotic,11950.0,6214.0,23197.0,16983.0,142.1
+51-4072,"Molding, Coremaking & Casting Machine Operators",51,Production,85,5,76,5,65.3,62,Robotic,154220.0,95616.0,14489.0,-81127.0,-52.6
+51-4081,Multiple Machine Tool Setters & Operators,51,Production,85,5,64,5,55.1,52,Robotic,127520.0,66310.0,23144.0,-43166.0,-33.9
+51-4111,Tool & Die Makers,51,Production,85,5,64,5,55.1,52,Robotic,54840.0,28517.0,23178.0,-5339.0,-9.7
+51-4121,"Welders, Cutters & Welder Fitters",51,Production,95,5,87,5,82.9,79,Robotic,421450.0,332946.0,4005.0,-328941.0,-78.0
+51-4122,"Welding, Soldering & Brazing Machine Operators",51,Production,95,5,95,5,90.5,86,Robotic,36030.0,30986.0,1804.0,-29181.0,-81.0
+51-4191,Heat Treating Equipment Setters & Operators,51,Production,85,5,64,5,55.1,52,Robotic,14350.0,7462.0,23196.0,15734.0,109.6
+51-4192,Layout Workers (Metal & Plastic),51,Production,85,5,62,5,53.5,51,Robotic,3750.0,1912.0,24178.0,22265.0,593.7
+51-4193,Plating Machine Operators,51,Production,85,5,76,5,65.3,62,Robotic,31220.0,19356.0,14531.0,-4825.0,-15.5
+51-4194,"Tool Grinders, Filers & Sharpeners",51,Production,85,5,64,5,55.1,52,Robotic,5210.0,2709.0,23200.0,20491.0,393.3
+51-4199,Metal Workers & Plastic Workers NEC,51,Production,85,5,62,5,53.5,51,Robotic,19030.0,9705.0,24171.0,14465.0,76.0
+51-5111,Prepress Technicians & Workers,51,Production,85,5,76,5,65.3,62,Robotic,22230.0,13783.0,14534.0,752.0,3.4
+51-5112,Printing Press Operators,51,Production,85,5,76,5,65.3,62,Robotic,143770.0,89137.0,14493.0,-74645.0,-51.9
+51-5113,Print Binding & Finishing Workers,51,Production,85,5,64,5,55.1,52,Robotic,36110.0,18777.0,23186.0,4409.0,12.2
+51-6011,Laundry & Dry-Cleaning Workers,51,Production,85,5,64,5,55.1,52,Robotic,192620.0,100162.0,23115.0,-77048.0,-40.0
+51-6021,"Pressers (Textile, Garment & Related)",51,Production,85,5,50,5,43.2,41,Robotic,26680.0,10939.0,35041.0,24103.0,90.3
+51-6031,Sewing Machine Operators,51,Production,85,5,50,5,43.2,41,Robotic,115180.0,47224.0,34993.0,-12231.0,-10.6
+51-6041,Shoe & Leather Workers & Repairers,51,Production,85,5,64,5,55.1,52,Robotic,7010.0,3645.0,23200.0,19554.0,279.0
+51-6042,Shoe Machine Operators & Tenders,51,Production,85,5,76,5,65.3,62,Robotic,1620.0,1004.0,14542.0,13537.0,835.6
+51-6051,Sewers (Hand),51,Production,85,5,64,5,55.1,52,Robotic,1610.0,837.0,23202.0,22365.0,1389.1
+51-6052,"Tailors, Dressmakers & Custom Sewers",51,Production,85,5,64,5,55.1,52,Robotic,15490.0,8055.0,23196.0,15141.0,97.7
+51-6061,Textile Bleaching & Dyeing Machine Operators,51,Production,85,5,50,5,43.2,41,Robotic,4890.0,2005.0,35053.0,33048.0,675.8
+51-6062,Textile Cutting Machine Operators,51,Production,85,5,50,5,43.2,41,Robotic,8830.0,3620.0,35051.0,31431.0,356.0
+51-6063,Textile Knitting & Weaving Machine Operators,51,Production,85,5,50,5,43.2,41,Robotic,14000.0,5740.0,35048.0,29308.0,209.3
+51-6064,"Textile Winding, Twisting & Drawing Machine Operators",51,Production,85,5,50,5,43.2,41,Robotic,19510.0,7999.0,35045.0,27046.0,138.6
+51-6091,Extruding & Forming Machine Operators (Synthetic/Glass),51,Production,85,5,76,5,65.3,62,Robotic,13200.0,8184.0,14538.0,6354.0,48.1
+51-6092,Fabric & Apparel Patternmakers,51,Production,85,5,38,5,33.0,31,Robotic,2500.0,775.0,47945.0,47170.0,1886.8
+51-6093,Upholsterers,51,Production,85,5,64,5,55.1,52,Robotic,20370.0,10592.0,23194.0,12601.0,61.9
+51-6099,"Textile, Apparel & Furnishings Workers NEC",51,Production,85,5,38,5,33.0,31,Robotic,13860.0,4297.0,47939.0,43642.0,314.9
+51-7011,Cabinetmakers & Bench Carpenters,51,Production,93,5,24,5,22.7,22,Robotic,78690.0,17312.0,57052.0,39740.0,50.5
+51-7021,Furniture Finishers,51,Production,85,5,64,5,55.1,52,Robotic,13930.0,7244.0,23196.0,15953.0,114.5
+51-7031,Model Makers (Wood),51,Production,85,5,34,5,29.6,28,Robotic,100.0,28.0,52206.0,52178.0,52178.4
+51-7032,Patternmakers (Wood),51,Production,85,5,34,5,29.6,28,Robotic,50.0,14.0,52206.0,52192.0,104384.8
+51-7041,Sawing Machine Setters & Operators,51,Production,85,5,64,5,55.1,52,Robotic,42840.0,22277.0,23183.0,906.0,2.1
+51-7042,Woodworking Machine Setters & Operators NEC,51,Production,85,5,34,5,29.6,28,Robotic,61070.0,17100.0,52172.0,35073.0,57.4
+51-7099,Woodworkers NEC,51,Production,85,5,34,5,29.6,28,Robotic,5590.0,1565.0,52203.0,50638.0,905.9
+51-8011,Nuclear Power Reactor Operators,51,Production,85,5,64,55,55.1,25,Robotic,1630.0,408.0,56647.0,56239.0,3450.3
+51-8012,Power Distributors & Dispatchers,51,Production,85,5,64,5,55.1,52,Robotic,8810.0,4581.0,23199.0,18618.0,211.3
+51-8013,Power Plant Operators,51,Production,85,5,64,5,55.1,52,Robotic,30480.0,15850.0,23189.0,7339.0,24.1
+51-8021,Stationary Engineers & Boiler Operators,51,Production,85,5,64,5,55.1,52,Robotic,30270.0,15740.0,23189.0,7449.0,24.6
+51-8031,Water & Wastewater Treatment Plant Operators,51,Production,85,5,64,5,55.1,52,Robotic,124640.0,64813.0,23146.0,-41667.0,-33.4
+51-8091,Chemical Plant & System Operators,51,Production,85,5,46,5,39.9,38,Robotic,15120.0,5746.0,38703.0,32958.0,218.0
+51-8092,Gas Plant Operators,51,Production,85,5,64,5,55.1,52,Robotic,14660.0,7623.0,23196.0,15573.0,106.2
+51-8093,Petroleum Pump System Operators & Gaugers,51,Production,85,5,64,5,55.1,52,Robotic,34310.0,17841.0,23187.0,5346.0,15.6
+51-8099,Plant & System Operators NEC,51,Production,85,5,64,5,55.1,52,Robotic,14420.0,7498.0,23196.0,15698.0,108.9
+51-9011,Chemical Equipment Operators & Tenders,51,Production,85,5,46,5,39.9,38,Robotic,128390.0,48788.0,38640.0,-10148.0,-7.9
+51-9012,"Separating, Filtering & Clarifying Machine Operators",51,Production,85,5,76,5,65.3,62,Robotic,52030.0,32259.0,14524.0,-17734.0,-34.1
+51-9013,"Crushing, Grinding, Polishing & Buffing Machine Operators",51,Production,85,5,76,5,65.3,62,Robotic,0.0,0.0,14542.0,14542.0,
+51-9021,"Crushing, Grinding & Polishing Machine Operators (Nec)",51,Production,85,5,76,5,65.3,62,Robotic,27300.0,16926.0,14533.0,-2393.0,-8.8
+51-9022,Grinding & Lapping Machine Operators (Nec),51,Production,85,5,76,5,65.3,62,Robotic,11120.0,6894.0,14538.0,7644.0,68.7
+51-9023,Mixing & Blending Machine Setters & Operators,51,Production,85,5,64,5,55.1,52,Robotic,101060.0,52551.0,23157.0,-29395.0,-29.1
+51-9031,"Coating, Painting & Spraying Machine Operators",51,Production,85,5,86,5,73.8,70,Robotic,5780.0,4046.0,9062.0,5016.0,86.8
+51-9032,Cutting & Slicing Machine Operators,51,Production,85,5,76,5,65.3,62,Robotic,46930.0,29097.0,14526.0,-14571.0,-31.0
+51-9041,"Extruding, Forming, Pressing & Compacting Machine Operators",51,Production,85,5,88,5,75.5,72,Robotic,57280.0,41242.0,7883.0,-33359.0,-58.2
+51-9051,"Furnace, Kiln, Oven, Drier & Kettle Operators",51,Production,85,5,64,5,55.1,52,Robotic,16050.0,8346.0,23196.0,14850.0,92.5
+51-9061,"Inspectors, Testers, Sorters, Samplers & Weighers",51,Production,85,5,79,5,67.9,65,Robotic,590530.0,383844.0,12157.0,-371688.0,-62.9
+51-9071,Jewelers & Precious Stone & Metal Workers,51,Production,85,5,64,5,55.1,52,Robotic,22620.0,11762.0,23192.0,11430.0,50.5
+51-9081,Dental Laboratory Technicians,51,Production,85,5,64,5,55.1,52,Robotic,33230.0,17280.0,23188.0,5908.0,17.8
+51-9082,Medical Appliance Technicians,51,Production,85,5,64,5,55.1,52,Robotic,11320.0,5886.0,23198.0,17311.0,152.9
+51-9083,Ophthalmic Laboratory Technicians,51,Production,85,5,64,5,55.1,52,Robotic,18810.0,9781.0,23194.0,13413.0,71.3
+51-9111,Packaging & Filling Machine Operators,51,Production,85,5,94,5,80.7,77,Robotic,383810.0,295534.0,5268.0,-290266.0,-75.6
+51-9121,"Coating, Painting & Spraying Machine Operators (Nec)",51,Production,85,5,86,5,73.8,70,Robotic,0.0,0.0,9064.0,9064.0,
+51-9122,Painters (Transportation Equipment),51,Production,85,5,74,5,63.6,60,Robotic,0.0,0.0,16113.0,16113.0,
+51-9123,"Painting, Coating & Decorating Workers",51,Production,85,5,74,5,63.6,60,Robotic,8070.0,4842.0,16110.0,11268.0,139.6
+51-9131,Photographic Process Workers & Processing Machine Operators,51,Production,85,5,76,5,65.3,62,Robotic,0.0,0.0,14542.0,14542.0,
+51-9141,Semiconductor Processing Technicians,51,Production,85,5,68,5,58.5,56,Robotic,26190.0,14666.0,19486.0,4820.0,18.4
+51-9151,Adhesive Bonding Machine Operators & Tenders,51,Production,85,5,76,5,65.3,62,Robotic,4660.0,2889.0,14540.0,11651.0,250.0
+51-9161,Computer Numerically Controlled Tool Operators (Nec),51,Production,85,5,64,5,55.1,52,Robotic,175750.0,91390.0,23122.0,-68268.0,-38.8
+51-9191,Cementing & Gluing Machine Operators,51,Production,85,5,76,5,65.3,62,Robotic,11420.0,7080.0,14538.0,7458.0,65.3
+51-9192,"Cleaning, Washing & Metal Pickling Equipment Operators",51,Production,85,5,64,5,55.1,52,Robotic,14100.0,7332.0,23196.0,15864.0,112.5
+51-9193,Cooling & Freezing Equipment Operators,51,Production,85,5,64,5,55.1,52,Robotic,5340.0,2777.0,23200.0,20424.0,382.5
+51-9194,Etchers & Engravers,51,Production,85,5,64,5,55.1,52,Robotic,7950.0,4134.0,23199.0,19065.0,239.8
+51-9195,"Molders, Shapers & Casters (Except Metal & Plastic)",51,Production,85,5,62,5,53.5,51,Robotic,33850.0,17264.0,24164.0,6900.0,20.4
+51-9196,Paper Goods Machine Setters & Operators,51,Production,85,5,64,5,55.1,52,Robotic,96700.0,50284.0,23159.0,-27125.0,-28.1
+51-9197,Tire Builders,51,Production,85,5,64,5,55.1,52,Robotic,13250.0,6890.0,23197.0,16307.0,123.1
+51-9198,Helpers (Production Workers),51,Production,85,5,64,5,55.1,52,Robotic,168170.0,87448.0,23126.0,-64323.0,-38.2
+51-9199,Production Workers NEC,51,Production,85,5,64,5,55.1,52,Robotic,278050.0,144586.0,23075.0,-121511.0,-43.7
+53-1041,First-Line Supervisors of Transportation Workers,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,8450.0,3296.0,38466.0,35171.0,416.2
+53-1042,"First-Line Supervisors of Helpers, Laborers & Material Movers",53,Transportation & Material Moving,94,5,55,8,52.0,48,Robotic,0.0,0.0,25167.0,25167.0,
+53-1044,First-Line Supervisors of Passenger Attendants,53,Transportation & Material Moving,90,5,54,8,49.1,45,Robotic,0.0,0.0,29166.0,29166.0,
+53-2011,"Airline Pilots, Copilots & Flight Engineers",53,Transportation & Material Moving,82,5,51,68,42.7,14,Robotic,65670.0,9194.0,76440.0,67246.0,102.4
+53-2012,Commercial Pilots,53,Transportation & Material Moving,82,5,51,68,42.7,14,Robotic,50750.0,7105.0,76446.0,69341.0,136.6
+53-2021,Air Traffic Controllers,53,Transportation & Material Moving,82,5,51,62,42.7,16,Robotic,20500.0,3280.0,72942.0,69662.0,339.8
+53-2022,Airfield Operations Specialists,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,14650.0,5714.0,38463.0,32749.0,223.5
+53-2031,Flight Attendants,53,Transportation & Material Moving,90,5,54,8,49.1,45,Robotic,88210.0,39694.0,29119.0,-10576.0,-12.0
+53-3011,Ambulance Drivers & Attendants,53,Transportation & Material Moving,90,5,54,8,49.1,45,Robotic,11070.0,4982.0,29160.0,24179.0,218.4
+53-3031,Driver/Sales Workers,53,Transportation & Material Moving,92,5,54,8,50.1,46,Robotic,407850.0,187611.0,27401.0,-160210.0,-39.3
+53-3032,Heavy & Tractor-Trailer Truck Drivers,53,Transportation & Material Moving,82,5,63,55,52.6,24,Robotic,2053320.0,492797.0,58652.0,-434145.0,-21.1
+53-3033,Light Truck Drivers,53,Transportation & Material Moving,82,5,63,8,52.6,48,Robotic,986840.0,473683.0,27477.0,-446206.0,-45.2
+53-3041,Taxi Drivers,53,Transportation & Material Moving,82,5,65,8,54.2,50,Robotic,0.0,0.0,25847.0,25847.0,
+53-3042,Rideshare Drivers,53,Transportation & Material Moving,82,5,65,8,54.2,50,Robotic,0.0,0.0,25847.0,25847.0,
+53-3051,Bus Drivers (Transit & Intercity),53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,385670.0,150411.0,38261.0,-112150.0,-29.1
+53-3052,Bus Drivers (School),53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,146220.0,57026.0,38391.0,-18635.0,-12.7
+53-3053,Shuttle Drivers & Chauffeurs,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,227690.0,88799.0,38347.0,-50452.0,-22.2
+53-3054,Passenger Vehicle Drivers NEC,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,10720.0,4181.0,38465.0,34284.0,319.8
+53-3061,Dredge Operators,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,0.0,0.0,38471.0,38471.0,
+53-3062,Operating Engineers (Construction Equipment),53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,0.0,0.0,38471.0,38471.0,
+53-3099,Motor Vehicle Operators NEC,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,46230.0,18030.0,38446.0,20416.0,44.2
+53-4011,Locomotive Engineers,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,26560.0,10358.0,38456.0,28098.0,105.8
+53-4012,"Rail Yard Engineers, Dinkey Operators",53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,0.0,0.0,38471.0,38471.0,
+53-4013,Rail Car Repairers,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,1510.0,589.0,38470.0,37881.0,2508.7
+53-4021,"Railroad Brake, Signal & Switch Operators",53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,0.0,0.0,38471.0,38471.0,
+53-4031,Railroad Conductors & Yardmasters,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,34800.0,13572.0,38452.0,24880.0,71.5
+53-4041,Subway & Streetcar Operators,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,3950.0,1540.0,38468.0,36928.0,934.9
+53-4099,Rail Transportation Workers NEC,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,1110.0,433.0,38470.0,38037.0,3426.8
+53-5011,Sailors & Marine Oilers,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,31240.0,12184.0,38454.0,26270.0,84.1
+53-5021,"Captains, Mates & Pilots of Water Vessels",53,Transportation & Material Moving,82,5,51,68,42.7,14,Robotic,35240.0,4934.0,76452.0,71518.0,202.9
+53-5022,Motorboat Operators,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,2070.0,807.0,38470.0,37662.0,1819.4
+53-5031,Ship Engineers,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,8370.0,3264.0,38466.0,35202.0,420.6
+53-6011,Bridge & Lock Tenders,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,2210.0,862.0,38469.0,37608.0,1701.7
+53-6021,Parking Attendants,53,Transportation & Material Moving,90,5,54,8,49.1,45,Robotic,134230.0,60404.0,29094.0,-31310.0,-23.3
+53-6031,Automotive & Watercraft Service Attendants,53,Transportation & Material Moving,90,5,54,8,49.1,45,Robotic,94930.0,42718.0,29115.0,-13604.0,-14.3
+53-6041,Traffic Technicians,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,5730.0,2235.0,38468.0,36233.0,632.3
+53-6051,Transportation Inspectors,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,22320.0,8705.0,38459.0,29754.0,133.3
+53-6061,Transportation Attendants NEC,53,Transportation & Material Moving,90,5,54,8,49.1,45,Robotic,21730.0,9778.0,29155.0,19376.0,89.2
+53-7011,Conveyor Operators & Tenders,53,Transportation & Material Moving,82,5,66,8,55.0,51,Robotic,25040.0,12770.0,24812.0,12042.0,48.1
+53-7021,Crane & Tower Operators,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,41080.0,16021.0,38448.0,22427.0,54.6
+53-7031,Dredge Operators (Nec),53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,500.0,195.0,38470.0,38275.0,7655.1
+53-7041,Hoist & Winch Operators,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,1990.0,776.0,38470.0,37693.0,1894.1
+53-7051,Industrial Truck & Tractor Operators,53,Transportation & Material Moving,82,5,51,55,42.7,19,Robotic,801400.0,152266.0,67459.0,-84807.0,-10.6
+53-7061,Cleaners of Vehicles & Equipment,53,Transportation & Material Moving,82,5,63,8,52.6,48,Robotic,368770.0,177010.0,27777.0,-149232.0,-40.5
+53-7062,"Laborers & Freight, Stock & Material Movers (Hand)",53,Transportation & Material Moving,94,5,55,8,52.0,48,Robotic,2961990.0,1421755.0,23582.0,-1398173.0,-47.2
+53-7063,Machine Feeders & Offbearers,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,44460.0,17339.0,38447.0,21107.0,47.5
+53-7064,Packers & Packagers (Hand),53,Transportation & Material Moving,82,5,69,8,57.5,53,Robotic,600460.0,318244.0,22576.0,-295668.0,-49.2
+53-7065,Stockers & Order Fillers,53,Transportation & Material Moving,82,5,69,8,57.5,53,Robotic,2743280.0,1453938.0,21638.0,-1432300.0,-52.2
+53-7070,"Tank Car, Truck & Ship Loaders",53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,0.0,0.0,38471.0,38471.0,
+53-7081,Refuse & Recyclable Material Collectors,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,137820.0,53750.0,38396.0,-15354.0,-11.1
+53-7099,Material Moving Workers NEC,53,Transportation & Material Moving,82,5,51,8,42.7,39,Robotic,0.0,0.0,38471.0,38471.0,
+55-1011,Army Officers,55,Military,55,21,18,85,19.4,3,Both,0.0,0.0,125331.0,125331.0,
+55-1012,Navy Officers,55,Military,55,21,18,85,19.4,3,Both,0.0,0.0,125331.0,125331.0,
+55-1013,Marine Officers,55,Military,55,21,18,85,19.4,3,Both,0.0,0.0,125331.0,125331.0,
+55-1014,Air Force Officers,55,Military,55,21,18,85,19.4,3,Both,0.0,0.0,125331.0,125331.0,
+55-1015,Coast Guard Officers,55,Military,55,21,18,85,19.4,3,Both,0.0,0.0,125331.0,125331.0,
+55-1019,Military Officers NEC,55,Military,55,21,18,85,19.4,3,Both,0.0,0.0,125331.0,125331.0,
+55-2011,Army Enlisted,55,Military,55,21,18,85,19.4,3,Both,0.0,0.0,125331.0,125331.0,
+55-2012,Navy Enlisted,55,Military,55,21,18,85,19.4,3,Both,0.0,0.0,125331.0,125331.0,
+55-2013,Marine Enlisted,55,Military,55,21,18,85,19.4,3,Both,0.0,0.0,125331.0,125331.0,
+55-2014,Air Force Enlisted,55,Military,55,21,18,85,19.4,3,Both,0.0,0.0,125331.0,125331.0,
+55-2015,Coast Guard Enlisted,55,Military,55,21,18,85,19.4,3,Both,0.0,0.0,125331.0,125331.0,
+55-2019,Military Enlisted NEC,55,Military,55,21,18,85,19.4,3,Both,0.0,0.0,125331.0,125331.0,
+55-3011,Military Occupations (Officer & Enlisted) NEC,55,Military,55,21,18,85,19.4,3,Both,0.0,0.0,125331.0,125331.0,

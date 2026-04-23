@@ -145,6 +145,51 @@ def run_geo(scores_path='data/bls_automation_scores.csv',
     print(top[['region_id','region_name','displacement_index']].to_string(index=False))
 
 
+def run_reallocation(
+    scores_path='data/bls_automation_scores.csv',
+    emp_path='data/employment_by_region.states.csv',
+    out_scores='data/reallocation_scores.csv',
+    out_group='data/reallocation_group_summary.csv',
+    out_matrix='data/reallocation_flow_matrix.csv',
+):
+    """
+    Run the labor reallocation sub-pipeline.
+    Uses national employment totals (summed from state OEWS) if available,
+    otherwise runs in relative mode (all occupations equally weighted).
+    """
+    print(f"\n── Labor reallocation model ──")
+    from helpers.reallocation import compute_reallocation, compute_group_summary, compute_flow_matrix
+
+    scores = pd.read_csv(scores_path)
+
+    national_emp = None
+    if os.path.exists(emp_path):
+        emp = pd.read_csv(emp_path)
+        national_emp = emp.groupby('soc')['employment'].sum()
+        print(f"  Employment data: {len(national_emp):,} SOC codes from {emp_path}")
+    else:
+        print(f"  No employment file found — running in relative mode")
+
+    df_r    = compute_reallocation(scores, national_emp)
+    summary = compute_group_summary(df_r)
+    fm      = compute_flow_matrix(df_r)
+
+    df_r.to_csv(out_scores, index=False)
+    summary.to_csv(out_group, index=False)
+    fm.to_csv(out_matrix)
+
+    print(f"✓ Occupation reallocation → {out_scores}")
+    print(f"✓ Group summary           → {out_group}")
+    print(f"✓ Flow matrix             → {out_matrix}")
+    print(f"\n  Top 5 gaining groups (net inflow):")
+    for _, row in summary.head(5).iterrows():
+        print(f"    {row['group_name']:35s}  net_flow={row['net_flow']:+10,.0f}  ({row['net_flow_pct']:+.1f}%)")
+    print(f"\n  Top 5 losing groups (net outflow):")
+    for _, row in summary.tail(5).iterrows():
+        print(f"    {row['group_name']:35s}  net_flow={row['net_flow']:+10,.0f}  ({row['net_flow_pct']:+.1f}%)")
+
+
 if __name__ == '__main__':
     df, summary = run_pipeline()
     run_geo()
+    run_reallocation()
