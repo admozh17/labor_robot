@@ -58,7 +58,7 @@ def to_abbr(area_title: str) -> str:
 def main(argv=None):
     ap = argparse.ArgumentParser(description='Convert OEWS State workbook to employment_by_region.csv format')
     ap.add_argument('--xlsx', required=True, help='Path to state_M20YY_dl.xlsx (from BLS OEWS)')
-    ap.add_argument('--out', default='employment_by_region.states.csv', help='Output CSV path')
+    ap.add_argument('--out', default='data/employment_by_region.states.csv', help='Output CSV path')
     args = ap.parse_args(argv)
 
     xls = pd.ExcelFile(args.xlsx)

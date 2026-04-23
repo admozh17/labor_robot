@@ -4,8 +4,8 @@ Main pipeline: score all 867 BLS SOC occupations, validate, export.
 
 import sys, os, json, math
 
-from score_engine import score_occupation
-from occupations import ALL_OCCUPATIONS
+from helpers.score_engine import score_occupation
+from helpers.occupations import ALL_OCCUPATIONS
 import pandas as pd
 
 # ─── Published Validation Anchors ────────────────────────────────────────────
@@ -94,7 +94,8 @@ def run_pipeline():
         print(f"  {grp:40s} {avg:.1f}%")
 
     # ─── Export ───────────────────────────────────────────────────────────────
-    out_path = 'bls_automation_scores.csv'
+    os.makedirs('data', exist_ok=True)
+    out_path = 'data/bls_automation_scores.csv'
     df.to_csv(out_path, index=False)
     print(f"\n✓ Exported {len(df)} rows → {out_path}")
 
@@ -112,15 +113,15 @@ def run_pipeline():
         'by_threat': df['primary_threat'].value_counts().to_dict(),
         'records': df.to_dict(orient='records'),
     }
-    with open('scores.json', 'w') as f:
+    with open('data/scores.json', 'w') as f:
         json.dump(summary, f)
     print(f"✓ JSON summary saved")
     return df, summary
 
 
-def run_geo(scores_path='bls_automation_scores.csv',
-            emp_path='employment_by_region.states.csv',
-            out_path='geo_scores.states.csv'):
+def run_geo(scores_path='data/bls_automation_scores.csv',
+            emp_path='data/employment_by_region.states.csv',
+            out_path='data/geo_scores.states.csv'):
     """
     Aggregate occupation scores to state level if the employment file exists.
     Calls geo_exposure.main() so all logic stays in one place.
@@ -129,7 +130,7 @@ def run_geo(scores_path='bls_automation_scores.csv',
         print(f"\n── Geographic aggregation skipped ({emp_path} not found) ──")
         return
     print(f"\n── Geographic aggregation ({emp_path}) ──")
-    from geo_exposure import load_scores, load_employment, compute_region_indices
+    from helpers.geo_exposure import load_scores, load_employment, compute_region_indices
     scores  = load_scores(scores_path)
     emp     = load_employment(emp_path)
     df_join = emp.merge(scores, on='soc', how='left', validate='many_to_one')

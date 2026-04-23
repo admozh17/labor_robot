@@ -106,8 +106,8 @@ def compute_region_indices(df_join: pd.DataFrame) -> pd.DataFrame:
 def main(argv=None):
     p = argparse.ArgumentParser(description='Aggregate occupation scores into region exposure indices')
     p.add_argument('--employment', required=True, help='CSV with columns: region_id, soc, employment[, region_name]')
-    p.add_argument('--scores', default='bls_automation_scores.csv', help='CSV of occupation scores (default: bls_automation_scores.csv)')
-    p.add_argument('--out', default='geo_scores.csv', help='Output CSV path (default: geo_scores.csv)')
+    p.add_argument('--scores', default='data/bls_automation_scores.csv', help='CSV of occupation scores (default: data/bls_automation_scores.csv)')
+    p.add_argument('--out', default='data/geo_scores.csv', help='Output CSV path (default: data/geo_scores.csv)')
     args = p.parse_args(argv)
 
     scores = load_scores(args.scores)

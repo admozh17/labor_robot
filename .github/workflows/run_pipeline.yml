@@ -3,7 +3,7 @@ name: Regenerate scores
 on:
   push:
     branches: [main]
-    paths: ['score_engine.py', 'occupations.py']
+    paths: ['helpers/score_engine.py', 'helpers/occupations.py']
 
 jobs:
   score:
@@ -17,4 +17,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: scores
-          path: bls_automation_scores.csv
+          path: data/bls_automation_scores.csv
